@@ -63,7 +63,7 @@ li {
 #slider>ul.slider li {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: -40px;
     opacity: 0;
     width: inherit;
     height: inherit;
@@ -117,7 +117,7 @@ li {
     font-weight: 700;
     color: #2D9AA6;
     top: 890px;
-    left: 650px;
+    left: 760px;
 }
 
 .entretenimiento {
@@ -127,7 +127,7 @@ li {
     font-weight: 700;
     color: #2D9AA6;
     top: 890px;
-    left: 950px;
+    left: 1080px;
 }
 
 .lineuno {
@@ -135,7 +135,7 @@ li {
     width: 120px;
     height: 290px;
     top: 949px;
-    left: 650px;
+    left: 760px;
 }
 
 .linedos {
@@ -143,7 +143,7 @@ li {
     width: 120px;
     height: 290px;
     top: 949px;
-    left: 950px;
+    left: 1080px;
 }
 
 
@@ -174,7 +174,8 @@ li {
     width: 12px;
     height: 12px;
     border-radius: 100%;
-    transition: background-color 0.3s; 
+    transition: background-color 0.3s;
+    left: 730px;
 }
 
 #slider > .menu li a.selected {
