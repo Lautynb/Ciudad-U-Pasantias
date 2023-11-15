@@ -1,0 +1,228 @@
+header {
+    background: hsla(0, 0%, 92%, 0.774);
+    width: 100%;
+    weight: 5%;
+    position: fixed;
+    z-index: 100;
+    margin-top: 0%;
+}
+
+h3 {
+    font-weight: 1;
+    margin-left: -7%;
+}
+
+.ContenidoAlineado {
+    display: flex;
+    margin-left: -15%;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    padding-top: 180px;
+}
+
+.Icono {
+    width: 10%;
+}
+
+.Linea {
+    width: 0.5%;
+    height: 380px;
+    margin-right: -2%;
+    background-color: #ffffff;
+}
+
+.Titulo {
+    color: white;
+    font-size: 80px;
+    width: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SubT {
+    color: white;
+    font-size: 40px;
+    margin-top: 8%;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Mapa {
+    margin-left: 20%;
+    margin-top: -12%;
+}
+
+.Ctext {
+    color: #CC2B9E;
+}
+
+.Cuestionario {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.fila {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.columna {
+    flex: 45%;
+    text-align: left;
+    margin-left: -45%;
+    padding-right: 0px;
+}
+
+.columna2 {
+    text-align: left;
+    margin-right: -15%;
+    padding-right: 0px;
+}
+
+.column:last-child {
+    padding-right: 0;
+}
+
+.Cuestionario label {
+    color: rgba(27, 27, 27, 0.779);
+    font-size: 40px;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="text"],
+textarea {
+    width: 140%;
+    padding: 25px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    border-radius: 35px;
+    border: 1px solid #ddd;
+    background-color: #F2F2F2;
+}
+
+input[type="text2"],
+textarea {
+    width: 160%;
+    padding: 25px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    border-radius: 35px;
+    border: 1px solid #ddd;
+    background-color: #F2F2F2;
+}
+
+input[type="text"] {
+    height: 40px;
+}
+
+input[type="text2"] {
+    height: 40px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+}
+
+input[type="text2"]:focus,
+textarea:focus {
+    outline: none;
+}
+
+.Lupa {
+    margin-left: -42%;
+    margin-top: 2%;
+}
+
+.ParrafoC {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2D9AA6;
+    margin-top: -6.5%;
+    margin-left: 22%;
+    font-size: 30px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.Menu {
+    margin-left: -40%;
+    margin-top: 50%;
+}
+
+.ParrafoC2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2D9AA6;
+    margin-top: -31%;
+    margin-left: 60%;
+    font-size: 30px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.cuadro {
+    display: flex;
+    margin-top: -5%;
+    margin-left: 25%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    border: 10px solid #ffffff;
+    padding: 10px;
+    margin-block-end: 5%;
+}
+
+.actividad {
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10%;
+    margin-block-end: 10%;
+    margin-left: 5%;
+    gap: 100px;
+}
+
+.texto {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.linea {
+    width: 270px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.subtexto {
+    color: #ffffff;
+    font-style: italic;
+    text-align: left;
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.circle-container {
+    position: relative;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 43%;
+    position: absolute;
+    top: 65px;
+    transform: translateX(-230%);
+}

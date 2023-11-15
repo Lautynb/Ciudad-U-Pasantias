@@ -1,0 +1,36 @@
+.ContenidoAlineado {
+    display: flex;
+    margin-left: -15%;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    padding-top: 100px;
+    
+}
+.icon{
+font-size: 1500%;
+color: white;
+padding-left: 0.1%;
+}
+.Linea {
+    width: 0.5%;
+    height: 380px;
+    margin-right: -2%;
+    background-color: #ffffff;
+}
+
+.Titulo {
+    color: white;
+    font-size: 80px;
+    width: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SubT {
+    color: white;
+    font-size: 40px;
+    margin-top: 8%;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

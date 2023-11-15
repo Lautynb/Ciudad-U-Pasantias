@@ -1,0 +1,399 @@
+
+  /* --------------------C. General----------------------------*/
+  h1 {
+
+    color: #EF5036;
+    font-size: 60px;
+    text-align: left;
+
+  }
+
+  h2 {
+
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+
+  }
+body{
+    margin-top: -10px;
+}
+html{
+    margin-top: -1%;
+}
+  /* ------------------------primer bloque----------------------------------*/
+  .Beneficios {
+    float: left;
+    width: 98%;
+    padding-top: 8%;
+    overflow: auto;
+  }
+
+  .lista1 {
+    list-style-image: url("./image/lista1.png");
+  }
+
+  .image {
+    float: right;
+    overflow: auto;
+  }
+
+  /* -----------------------------------------------------------------*/
+  .barraI {
+
+    display: block;
+    float: left;
+    justify-content: center;
+    margin-left: 160px;
+    color: #2D9AA6;
+  }
+
+  .fila {
+    display: flex;
+    justify-content: center;
+    margin-left: -80px;
+    color: #2D9AA6;
+}
+
+.columna {
+    flex: 1;
+    padding: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.columna a {
+    display: block;
+    padding: 0px;
+    color: #2D9AA6;
+    text-decoration: none;
+}
+
+.columna a:hover {
+    display: block;
+    padding: 0px;
+    color: #ff7b00;
+    text-decoration: none;
+}
+
+.ParrafoC {
+    margin-top: 25px;
+}
+  .b2b {
+    background: #08545B;
+    list-style: none;
+    width: 100%;
+    display: block;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .titulo2b {
+    list-style: none;
+    padding-top: 40px;
+    margin-left: 200px;
+    color: #e06907;
+    font-size: 20px;
+
+  }
+
+  .subtitulo2b {
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 200px;
+    color: #ffffff;
+    font-size: 30px;
+
+  }
+
+  .parrafo2b {
+    padding-bottom: 30px;
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 200px;
+    width: 600px;
+    color: #ffffff;
+    font-size: 20px;
+
+  }
+
+  .parrafo2b button {
+
+    background-color: #EF5036;
+
+    color: white;
+
+    border: none;
+
+    padding: 5px 10px;
+
+    cursor: pointer;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 4px 2px;
+    margin-left: 100px;
+    transition-duration: 0.4s;
+  }
+
+.parrafo2b  button:hover {
+
+background-color: #ffffff;
+
+color: #EF5036;
+
+}
+
+  .carousel {
+    float: right;
+    margin-right: 200px;
+    position: relative;
+    max-width: 400px;
+    max-height: 500px;
+    /* ajusta el ancho según sea necesario */
+  }
+
+  .carousel-images {
+    display: flex;
+
+    overflow: hidden;
+  }
+
+  .carousel-images img {
+    width: 100%;
+  }
+
+  #prevBtn,
+  #nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #prevBtn {
+    left: 0;
+  }
+
+  #nextBtn {
+    right: 0;
+  }
+
+  .b3 {
+
+    background: #ffffff;
+    list-style: none;
+    width: 100%;
+    display: block;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .titulo3b {
+    float: right;
+    list-style: none;
+    padding-top: 40px;
+    margin-right: 360px;
+    color: #e06907;
+    font-size: 20px;
+
+  }
+
+  .subtitulo3b {
+    width: 380px;
+    float: right;
+    list-style: none;
+    padding-top: 10px;
+    margin-right: 350px;
+    color: #000000;
+    font-size: 30px;
+
+  }
+
+  .parrafo3b {
+    float: right;
+    width: 380px;
+    padding-bottom: 10px;
+    list-style: none;
+    padding-top: 60px;
+    margin-right: 200px;
+    width: 530px;
+    color: #000000;
+    font-size: 25px;
+
+  }
+
+  .image3b {
+    display: block;
+    float: left;
+    margin-left: 300px;
+    margin-top: 0px;
+    font-size: 300px;
+  }
+
+  .parrafo3b button {
+    margin-top: 50px;
+    background-color: #EF5036;
+
+    color: white;
+
+    border: none;
+
+    padding: 5px 10px;
+
+    cursor: pointer;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 4px 2px;
+    margin-left: 100px;
+    transition-duration: 0.4s;
+  }
+
+ .parrafo3b button:hover {
+
+background-color: #ffffff;
+
+color: #EF5036;
+
+}
+  .b4 {
+    width: 100%;
+    background: #08545B;
+    list-style: none;
+    float: left;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .titulo4b {
+    align-items: normal;
+    float: left;
+    list-style: none;
+    padding-top: 40px;
+    margin-left: 100px;
+    color: #e06907;
+    font-size: 20px;
+
+  }
+
+  .subtitulo4b {
+    float: left;
+    list-style: none;
+    padding-top: 0px;
+    margin-left: 100px;
+    color: #ffffff;
+    font-size: 30px;
+
+  }
+
+  .parrafo4b {
+
+    float: left;
+    width: 500px;
+    padding-bottom: 10px;
+    list-style: none;
+    padding-top: 0px;
+    margin-left: 100px;
+    color: #ffffff;
+    font-size: 25px;
+
+  }
+
+  .row {
+
+    padding-top: 0px;
+    display: flex;
+
+    margin-right: 100px;
+  }
+
+  .column {
+    padding-top: 0px;
+    flex: 1;
+
+  }
+
+  .row hr {
+    padding: 0px;
+    margin: 0%;
+    height: 5px;
+    background-color: #08545B;
+    border: none;
+  }
+
+  .column2 {
+    padding-top: 0px;
+    margin-left: 160px;
+    flex: 1;
+
+  }
+
+  .b4 button {
+    float: right;
+    background-color: #EF5036;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 10px auto;
+    transition-duration: 1s;
+    margin-bottom: 10px;
+    /* Ajusta el margen inferior según sea necesario */
+
+  }
+
+  .b4 button:hover {
+    background-color: #f5f5f5;
+    color: black;
+    
+  }
+  .b4 a {
+    text-decoration: none;
+    color: white;
+  }
+  .b4 a:hover {
+    text-decoration: none;
+    transition-duration: 1s;
+    color: #000000;
+  }
+  .b5 {
+
+    background: #ffffff;
+    list-style: none;
+    width: 100%;
+    display: block;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .titulo5b {
+    float: left;
+    list-style: none;
+    padding-top: 40px;
+    padding-left: -00px;
+    color: #e06907;
+    font-size: 40px;
+
+  }

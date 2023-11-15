@@ -1,0 +1,123 @@
+.logo {
+    float: left;
+    margin-left: px;
+    padding-top: 0px;
+    padding-right:  40px;
+    padding-right:  40px;
+  }
+  button {
+  
+  background-color: #EF5036;
+  
+  color: white;
+  
+  border: none;
+  
+  padding: 5px 10px;
+  
+  cursor: pointer;
+  
+  text-align: center;
+  
+  text-decoration: none;
+  
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 20px;
+  
+  margin: 4px 2px;
+  
+  transition-duration: 0.4s;
+  
+  }
+  
+  
+  button:hover {
+  
+  background-color: #ffffff;
+  
+  color: #EF5036;
+  
+  }
+  a {
+  text-decoration: none;
+  color: white;
+  }
+  a:hover {
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: #EF5036;
+  }
+  
+  .barra_inicio hr{
+    padding: 0px;
+    margin: 0%;
+    height: 3px;
+    background-color: #EF5036;
+    border: none;
+   } 
+  
+   .lg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin-top: 100px;
+      font-family: Arial, sans-serif;
+  }
+  h2 {
+    padding-top: 0px;
+    text-align: center;
+    font-size: 30px;
+      color: #EF5036;
+    }
+  h1{
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #EF5036;
+  }
+  .login-container {
+    background: #f5f1ef;
+    margin-left: 50px;
+    margin-right: 50px;
+      width: 500px;
+      height: 500px;
+      padding: 30px;
+      border: none;
+      border-radius: 50px;
+  }
+  
+  .login-form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  label {
+      margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+      padding: 10px;
+      margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+      padding: 10px;
+      background-color: #EF5036;
+      transition-duration: 1s;
+  
+      color: rgb(236, 210, 210);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+      background-color: #ffffff;
+      color: black;
+      border: #EF5036;
+      border: 10px;
+  }

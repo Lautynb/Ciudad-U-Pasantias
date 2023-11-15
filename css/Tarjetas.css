@@ -1,0 +1,186 @@
+/* VERDES */
+.card {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.inner {
+  width: 180%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card:hover .inner,
+.flipped {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-color: #158E9B;
+  color: #ffffff;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  border-radius: 10%;
+}
+
+.back {
+  background-color: #158E9B;
+  color: #ffffff;
+  transform: rotateY(180deg);
+  border-radius: 10%;
+}
+
+.card2 {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.inner2 {
+  width: 180%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card2:hover .inner2,
+.flipped {
+  transform: rotateY(180deg);
+}
+
+.front2,
+.back2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front2 {
+  background-color: #158E9B;
+  color: #ffffff;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  border-radius: 10%;
+}
+
+.back2 {
+  background-color: #158E9B;
+  color: #ffffff;
+  transform: rotateY(180deg);
+  border-radius: 10%;
+}
+
+/* NARANJAS */
+
+.cardN {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.innerN {
+  width: 180%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.cardN:hover .innerN,
+.flipped {
+  transform: rotateY(180deg);
+}
+
+.frontN,
+.backN {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.frontN {
+  background-color: #F05921;
+  color: #ffffff;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  border-radius: 10%;
+}
+
+.backN {
+  background-color: #F05921;
+  color: #ffffff;
+  transform: rotateY(180deg);
+  border-radius: 10%;
+}
+
+.card2N {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.inner2N {
+  width: 180%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card2N:hover .inner2N,
+.flipped {
+  transform: rotateY(180deg);
+}
+
+.front2N,
+.back2N {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front2N {
+  background-color: #F05921;
+  color: #ffffff;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  border-radius: 10%;
+}
+
+.back2N {
+  background-color: #F05921;
+  color: #ffffff;
+  transform: rotateY(180deg);
+  border-radius: 10%;
+}

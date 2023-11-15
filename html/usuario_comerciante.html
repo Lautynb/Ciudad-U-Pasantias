@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title> Usuario Comerciante </title>
+    <script src="https://kit.fontawesome.com/c01776725e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/usuario_comerciante.css">
+    <script src="/js/menu_cu.js"></script>
+    <script src="/js/funcion_cargar_archivo.js"></script>
+
+</head>
+
+<body style="background-color: #F5F5F5;">
+
+    <header>
+        <div class="contenedor">
+            <img class="imagen" src="/image/menu.svg" onclick="mostrarLista()">
+            <ul class="lista" id="miLista">
+                <li>Mis datos</li>
+                <li>Cambiar Contraseña</li>
+                <li>Salir</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="ContenidoAlineado">
+
+        <img class="Icono" src="/image/iconoUsuario.svg">
+
+        <div class="Linea">
+
+        </div>
+
+        <h1 class="Titulo">Don Pollo</h1>
+        <h3 class="SubT">🏪 Comerciante</h3>
+
+    </div>
+
+    <div class="ContenidoAlineado2">
+
+        <h1 class="Titulo2">SUBIR BENEFICIO</h1>
+
+    </div>
+
+    <div class="Cuestionario">
+        <form action="/my-handling-form-page" method="post">
+            <div class="row">
+                <div class="column">
+                    <label for="name">Nombre:</label>
+                </div>
+                <div class="column">
+                    <input type="text" class="h5" id="name" name="comerciante_name" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="descripcion">Descripción:</label>
+                </div>
+                <div class="column">
+                    <input type="text" class="h5" id="descripcion" name="comerciante_descripcion" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label class="select-label" for="metodos_pago">Metodos de pago:</label>
+                </div>
+                <div class="form-group2">
+                    <select class="select" id="meto_pago" name="metodos_pago">
+                        <option value="Elegir">Seleccione una opción</option>
+                        <option value="Efectivo">Efectivo</option>
+                        <option value="Tajeta">Tarjeta de Credito</option>
+                        <option value="MP">Mercado Pago</option>
+                        <option value="otro"> Otro </option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="fecha_inicio">Fecha de inicio:</label>
+                </div>
+                <div class="column">
+                    <input type="text" class="h5" id="fecha" name="fecha_inicio" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="fecha_fin">Fecha de finalización:</label>
+                </div>
+                <div class="column">
+                    <input type="text" class="h5" id="direccion" name="nombre_direccion" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="imagen">Imagen:</label>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="column2">
+                    <input type="text2" class="h5" id="image" name="imagen" />
+
+                    <label for="img-file" id="imagen-cargador">
+                        <img class="img" src="/image/comercianteimg.svg">
+                    </label>
+                    <input type="file" id="img-file" onchange="mostrarNombreArchivo(this)">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="Terminos">
+
+        <ul>
+            <input type="checkbox" id="condiciones" name="terminos_condiciones" />
+            <label for="condiciones">Acepto terminos y condiciones</label>
+        </ul>
+
+    </div>
+
+    <button class="Boton" type="submit">Enviar </button>
+
+    <div class="ContenidoAlineado3">
+
+        <i class="fa-solid fa-hand-holding-dollar" style="color: #2d98a4; font-size: 100px;"></i>
+        <h1 class="Titulo2">BENEFICIOS OTORGADOS</h1>
+
+    </div>
+
+</body>
+
+</html>

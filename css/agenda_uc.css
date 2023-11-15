@@ -1,0 +1,56 @@
+header {
+    background: hsla(0, 0%, 92%, 0.774);
+    width: 100%;
+    weight: 5%;
+    position: fixed;
+    z-index: 100;
+    margin-top: 0%;
+}
+
+h3 {
+    font-weight: 1;
+    margin-left: -7%;
+}
+
+.ContenidoAlineado {
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 180px;
+}
+
+.Icono {
+    width: 10%;
+}
+
+.Linea {
+    width: 15px;
+    height: 380px;
+    margin-right: -2%;
+    background-color: #2D9AA6;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.Titulo {
+    color: #A8E3EA;
+    font-size: 80px;
+    width: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SubT {
+    color: #D3EEF1;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: -100px;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Calendario{
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-block-end: 30%;
+}
