@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forma parte de Ciudad U!</title>
+    <link rel="stylesheet" href="/css/registratestyle.css">
+   
+</head>
+<body>
+    <div class="centered-image">
+        <img src="/image/title.PNG" alt="Imagen centrada" WIDTH="369" HEIGHT="255">
+    </div>
+
+    <h1 class="titulo"> Forma parte de <br> Ciudad <span style="color: red;"> U! </span> </h1>
+    <h2 class="subtitulo"> Enterate de los requisitos <br> para unirte</h2>
+    
+    <div class="division">
+        <img src="/image/div.PNG" alt="div" WIDTH="10" HEIGHT="360">
+    </div>
+
+    <div class="lineuno">
+        <img src="/image/red.PNG" alt="div" WIDTH="150" HEIGHT="6">
+    </div>
+
+    <div class="linedos">
+        <img src="/image/blue.PNG" alt="div" WIDTH="75" HEIGHT="6">
+    </div>
+
+    <div class="linetres">
+        <img src="/image/red.PNG" alt="div" WIDTH="150" HEIGHT="6">
+    </div>
+
+    <div class="preuniversitarios"> Preuniversitarios</div>
+    <div class="preun_text"> Constancia de cursado <br> del preuniversitario </div>
+    <div class="egresados"> Egresados</div>
+    <div class="egresados_text"> Titulo y/o matricula <br> habilitante</div>
+    <div class="universitarios"> Universitarios</div>
+    <div class="univer_text">Certificado de <br> alumno regular</div>
+
+    <!--Formulario-->
+    <h1 class="registrate"> <span style="color: #2B99A5;">REGISTRATE</span></h1>
+
+ 
+<form style="position:absolute; top: 900px; right: 250px;">
+    <div class="form-group">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" style="border-radius: 10px; padding:10px; width: 943px; margin: 10px;">
+    </div>
+
+    <div class="form-group">
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px; margin: 10px;">
+      </div>
+    
+      <div class="form-group">
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" style="border-radius: 10px; padding:10px; width: 967px;margin: 10px;">
+            <option value="femenino">Selecciona una opción</option>
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="otro">Otro</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="apellido">Mail:</label>
+        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        </div>
+
+    <div class="form-group">
+        <label for="apellido">Fecha de nacimiento:</label>
+        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        </div>
+
+    <div class="form-group">
+        <label for="apellido">Telefono:</label>
+        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        </div>
+
+    <div class="form-group">
+        <label for="apellido">Ciudad:</label>
+        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        </div>
+
+        <div class="form-group">
+            <label for="sexo">Universidad:</label>
+            <select id="sexo" name="sexo" class="custom-select">
+                <option value="femenino">Selecciona una opción</option>
+                <option value="femenino">Pre</option>
+                <option value="masculino">Uncuyo</option>
+                <option value="otro">Uch</option>
+                <option value="femenino">Utn</option>
+                <option value="femenino">Uca</option>
+                <option value="masculino">Um</option>
+                <option value="otro">Uda</option>
+                <option value="masculino">Uc</option>
+                <option value="otro">UMaza</option>
+            </select>
+        </div>
+        
+
+    <div class="form-group">
+        <label for="apellido">DNI/Pasaporte:</label>
+        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        </div>
+
+        <div class="form-group">
+            <label for="apellido">Constancia:</label>
+            <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 800px;margin: 10px;">
+        </div>
+        
+        <!--ADJUNTAR PDF CONSTANCIA-->
+    
+        <div>
+            <label for="file-upload" class="file-label" style="border: 0px solid #2D9AA6; border-radius: 10px; padding:10px; width: 60px; display: flex; align-items: center; margin: 10px;">
+                <img src="/image/pdf.PNG" alt="Adjuntar icono" style="width: 63px; height: 70px; margin-right: 10px;">
+            </label>
+            <input type="file" id="file-upload" name="constancia" accept=".pdf" style="display: none;" onchange="displayFileName()" />
+        </div>
+        
+
+        <!--/ADJUNTAR PDF CONSTANCIA-->
+
+
+    <div class="form-group">
+        <label for="apellido">Nombre de usuario:</label>
+        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        </div>
+
+    <div class="form-group">
+        <label for="apellido">Contraseña:</label>
+        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        </div>
+
+  </form>  
+
+  <div class="container">
+    <input type="checkbox" id="terms" class="checkbox-input">
+    <label for="terms" class="checkbox-label">Acepto términos y condiciones</label>
+  </div>
+
+  <button class="boton-enviar">Enviar</button>
+
+</body>
+</html>
