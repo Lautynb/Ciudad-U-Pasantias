@@ -373,7 +373,7 @@ color: #EF5036;
     text-decoration: none;
     color: white;
   }
-  .b4 a:hover {
+  .b4 button:hover a{
     text-decoration: none;
     transition-duration: 1s;
     color: #000000;
