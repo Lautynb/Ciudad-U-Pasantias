@@ -7,6 +7,7 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
+    margin-block-end: 20%;
 }
 
 .titulo {
@@ -140,23 +141,25 @@ body {
     position: absolute;
     top: 750px;
     left: 770px;
+    color: #2B99A5;
 }
 
 .cuestionario {
-    padding-top: 100px;
-    background-color: red;
-    width: 50%; /* Ajusta el ancho según tus necesidades */
-    margin: 0 auto;
+
+    margin-left: 50%;
+    margin-top: 35%;
 }
 
 .form-group {
     margin-right: 83px;
-    margin-bottom: 1.6%;
     display: flex;
     align-items: center;
     margin: 10px;
     margin-right: 100%;
     float: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .form-group label {
@@ -169,16 +172,56 @@ body {
     margin-bottom: 2%;
     margin-left: -40%;
     margin-top: 2%;
-
+    border-radius: 10px; 
 }
 
 .form-group input {
-    width: 50%;
-    padding: 1%;
+    padding: 10%;
+    width: 100%;
     background-color: #F2F2F2;
     border: none;
-
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: -34%;
+    color: rgba(27, 27, 27, 0.779);
+    font-size: 25px;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.cuestionario select{
+    background-color: #F2F2F2;
+    color: #2B99A5;
+    font-size: 25px;
+    width: 102%;
+    padding: 10px;
+    margin-left: -34%;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* cargar pdf */
+ 
+.imgC {
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.file-label {
+    position: absolute;
+    left: 1480px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: -6%;
+}
+
+/* Boton y checkbox */
 
 .container {
     display: flex;
@@ -190,6 +233,7 @@ body {
     width: 370px;
     height: 20px;
     background: #fff;
+    margin-top: 21%;
 }
 
 .checkbox-label {
@@ -206,6 +250,7 @@ body {
 .checkbox-input {
     transform: scale(2.0);
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .custom-select {
@@ -218,49 +263,29 @@ body {
     border: none;
 }
 
-/* Estilo para los opciones del select */
-.custom-select option {
+
+.custom-select option { /* Estilo para los opciones del select */
     background-color: #f2f2f2;
     color: #1e7781;
 }
 
-.boton-enviar {
-    background-color: #F52C00;
-    border: none;
+.Boton {
+    background-color: #EF5036;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
     padding: 10px 60px;
+    border-radius: 15px;
+    margin-left: 44%;
     text-align: center;
+    border: none;
+    margin-top: 10%;
     text-decoration: none;
-    display: inline-block;
-    font-family: 'Lato', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-    margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 12px;
-    position: absolute;
-    top: 208%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
 }
 
-.boton-enviar:hover {
-    background-color: rgb(151, 67, 67);
+.Boton:hover {
+    background-color: #ffffff;
+    color: #EF5036;
 }
-
-/* Cargar pdf */
-.file-label {
-    position: absolute;
-    top: 626px;
-    left: 840px;
-    border: 3px solid #2D9AA6;
-    border-radius: 10px;
-    padding: 10px;
-    width: 24px;
-    display: flex;
-    align-items: center;
-}
-
-/* /Cargar pdf */
