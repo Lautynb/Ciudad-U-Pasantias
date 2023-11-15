@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 65px;
+    font-weight: 900;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+
+}
+
+.subtitulo {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 300;
+    position: absolute;
+    top: 525px;
+    left: 40px;
+}
+
+.division {
+    position: absolute;
+    width: 10px;
+    height: 290px;
+    margin: auto;
+    top: 320px;
+    left: 550px;
+}
+
+.preuniversitarios {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 37px;
+    font-weight: 700;
+    color: #2D9AA6;
+    top: 360px;
+    left: 650px;
+}
+
+.preun_text {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 30px;
+    top: 470px;
+    left: 650px;
+}
+
+.egresados {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 37px;
+    font-weight: 700;
+    color: #2D9AA6;
+    top: 360px;
+    left: 1050px;
+}
+
+.egresados_text {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 30px;
+    top: 470px;
+    left: 1050px;
+}
+
+.universitarios {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 37px;
+    font-weight: 700;
+    color: #2D9AA6;
+    top: 360px;
+    left: 1450px;
+}
+
+.univer_text {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 30px;
+    top: 470px;
+    left: 1450px;
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 0px;
+    position: static;
+    background-color: white;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.lineuno { 
+    position: absolute;
+    width: 120px;
+    height: 290px;
+    top: 640px;
+    left: 650px;
+}
+
+
+.linedos {
+    position: absolute;
+    width: 120px;
+    height: 290px;
+    top: 640px;
+    left: 1050px;
+}
+
+.linetres {
+    position: absolute;
+    width: 120px;
+    height: 290px;
+    top: 640px;
+    left: 1450px;
+}
+
+/* Formulario */
+
+.registrate {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 65px;
+    font-weight: 900;
+    position: absolute;
+    top: 750px;
+    left: 770px;
+}
+
+.form-group {
+    margin-right: 83px;
+    margin-bottom: 1.6%;
+    display: flex;
+    align-items: center;
+    margin: 10p;
+    
+    
+}
+.form-group label {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    font-weight: 300;
+    position: absolute;
+    width: 15%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+    margin-left: -40%;
+    margin-top: 2%;
+
+}
+.form-group input {
+    width: 50%;
+    padding: 1%;
+    background-color: #F2F2F2;
+    border: none;
+
+}
+
+.container {
+display: flex;
+align-items: center;
+margin-top: 10px;
+position: absolute;
+left: 760px;
+top: 1820px;
+width: 370px;
+height: 20px;
+background: #fff;
+
+}
+
+.checkbox-label {
+font-family: 'Lato', sans-serif;
+font-size: 1.3vw;
+font-weight: 300;
+position: absolute;
+margin-left: 30px;
+margin-top: 0px;
+white-space: nowrap;
+overflow: hidden;
+
+}
+
+.checkbox-input {
+transform: scale(2.0);
+margin-right: 10px;
+}
+
+.custom-select {
+    border-radius: 10px;
+    padding: 11px;
+    width: 967px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    color: #2D9AA6; 
+    border: none;
+}
+
+/* Estilo para los opciones del select */
+.custom-select option {
+    background-color: #f2f2f2; 
+    color: #1e7781;
+}
+
+.boton-enviar {
+background-color: #F52C00;
+border: none;
+color: white;
+padding: 10px 60px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: 'Lato', sans-serif;
+font-size: 25px;
+font-weight: 400;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 12px;
+position: absolute;
+top: 208%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.boton-enviar:hover {
+background-color: rgb(151, 67, 67);
+}
+
+/* Cargar pdf */
+.file-label {
+position: absolute;
+top: 626px;
+left: 840px;
+border: 3px solid #2D9AA6;
+border-radius: 10px;
+padding: 10px;
+width: 24px;
+display: flex;
+align-items: center;
+}
+/* /Cargar pdf */

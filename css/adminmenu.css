@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 0px;
+    position: absolute;
+    background-color: white;
+    background-size: cover;
+    background-position: center bottom;
+    top: 10px;
+    left: 750px;
+}
+
+.div {
+    position: absolute;
+    width: 10px;
+    height: 290px;
+    margin: auto;
+    top: 65px;
+    left: 900px;
+
+}
+
+.nombre {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2d9aa6;
+    top: 80px;
+    left: 950px;
+}
+
+.administrador {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    top: 150px;
+    left: 983px;
+
+}
+
+.foco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    margin-bottom: 0px;
+    position: absolute;
+    background-color: white;
+    background-size: cover;
+    background-position: center bottom;
+    top: 180px;
+    left: 950px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 1780px;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: auto;
+    overflow: auto;
+    left: -95px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown-content a {
+    display: block;
+    position: relative;
+    color: #000000;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    border: none;
+    font-family: 'TuTipografia', sans-serif;
+    transform: none;
+    
+}
+
+.dropdown-content a:hover {
+    color: #ffffff;
+    background-color: #ccccccb6;
+    
+}
+
+.dropdown-content a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.dropdown button {
+    background: none;
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.agendaimg, .revistaimg, .tuimg {
+    margin-left: 300px;
+    margin-top: -30px;
+}
+
+.agendaimg {
+        position: absolute;
+        top: 340px;
+        left: -150px;
+        border: none;
+        background: none;
+        cursor: pointer;
+}
+
+.revistaimg {
+    position: absolute;
+    top: 340px;
+    left: 150px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.tuimg {
+    position: absolute;
+    top: 340px;
+    left: 450px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.actividadesimg {
+    position: absolute;
+    top: 600px;
+    left: 145px;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.usuariosimg {
+    position: absolute;
+    top: 600px;
+    left: 435px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.beneficiosimg {
+    position: absolute;
+    top: 600px;
+    left: 750px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.letra{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000; 
+    top: 150px;
+    left: -15px;
+
+}
+
+.o1 {
+    position: absolute;
+    width: 10px;
+    height: 290px;
+    margin: auto;
+    top: 955px;
+    left: 280px;
+
+}
+
+.b2 {
+
+    position: absolute;
+    width: 10px;
+    height: 290px;
+    margin: auto;
+    top: 955px;
+    left: 882px;
+}
+
+.o3 {
+
+    position: absolute;
+    width: 10px;
+    height: 290px;
+    margin: auto;
+    top: 955px;
+    left: 1490px;
+}
+
+.b4 {
+
+    position: absolute;
+    width: 10px;
+    height: 290px;
+    margin: auto;
+    top: 1550px;
+    left: 280px;
+}
+
+.o5 {
+
+    position: absolute;
+    width: 10px;
+    height: 290px;
+    margin: auto;
+    top: 1550px;
+    left: 860px;
+}
+
+.b6 {
+
+    position: absolute;
+    width: 10px;
+    height: 290px;
+    margin: auto;
+    top: 1550px;
+    left: 1490px;
+}

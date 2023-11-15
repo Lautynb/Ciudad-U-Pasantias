@@ -11,11 +11,7 @@ Nos dedicamos al desarrollo del frontend de la plataforma Ciudad Universitaria, 
 Utilizamos tecnologías web estándar, como JavaScript (.js), HTML (.html), y CSS (.css), para el maquetado de la página. Este enfoque garantiza una estructura sólida y consistente, permitiendo una visualización adecuada en diferentes dispositivos.
 ## Installation
 
-Para previsualizar la página solo tienes que descargar la carpeta del proyecto [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+Para previsualizar la página solo tienes que descargar la carpeta del proyecto 
 
 ## Usage
 ______
