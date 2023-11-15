@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/usuario_comerciante.css">
     <script src="/js/menu_cu.js"></script>
     <script src="/js/funcion_cargar_archivo.js"></script>
-    <link rel="stylesheet" href="/css/barranav.css">
+    <link rel="stylesheet" href="/css/barranav-alter.css">
 <header>
     <nav>
         <div class="logo">
@@ -38,7 +38,7 @@
 
 <body style="background-color: #F5F5F5;">
 
-    <header>
+    <div class="heade">
         <div class="contenedor">
             <img class="imagen" src="/image/menu.svg" onclick="mostrarLista()">
             <ul class="lista" id="miLista">
@@ -47,7 +47,7 @@
                 <li>Salir</li>
             </ul>
         </div>
-    </header>
+    </div>
 
     <div class="ContenidoAlineado">
 
@@ -134,9 +134,13 @@
         </form>
     </div>
 
-    <div class="container">
-        <input type="checkbox" id="terms" class="checkbox-input">
-        <label for="terms" class="checkbox-label">Acepto términos y condiciones</label>
+    <div class="Terminos">
+
+        <ul>
+            <input type="checkbox" id="condiciones" name="terminos_condiciones" />
+            <label for="condiciones">Acepto terminos y condiciones</label>
+        </ul>
+
     </div>
 
     <button class="Boton" type="submit">Enviar </button>
