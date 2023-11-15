@@ -5,24 +5,10 @@
 body {
 
     background-color: white;
-    margin-top: 15%;
+    margin: 0;
     padding: 0;
-    margin-block-end: 20%;
 }
-.barra_inicio hr{
-    padding: 0px;
-    margin: 0px;
-    height: 3px;
-    background-color: #ffffff;
-    border: none;
-   } 
-   .barra_inicio button:hover hr{
-    padding: 0px;
-    margin: 0%;
-    height: 3px;
-    background-color: #EF5036;
-    border: none;
-   } 
+
 .titulo {
     font-family: 'Lato', sans-serif;
     text-align: left;
@@ -119,7 +105,7 @@ body {
     background-position: center bottom;
 }
 
-.lineuno {
+.lineuno { 
     position: absolute;
     width: 120px;
     height: 290px;
@@ -154,30 +140,20 @@ body {
     position: absolute;
     top: 750px;
     left: 770px;
-    color: #2B99A5;
-}
-
-.cuestionario {
-
-    margin-left: 50%;
-    margin-top: 35%;
 }
 
 .form-group {
     margin-right: 83px;
+    margin-bottom: 1.6%;
     display: flex;
     align-items: center;
-    margin: 10px;
-    margin-right: 100%;
-    float: center;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    margin: 10p;
+    
+    
 }
-
 .form-group label {
     font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    font-size: 1.7vw;
     font-weight: 300;
     position: absolute;
     width: 15%;
@@ -185,85 +161,44 @@ body {
     margin-bottom: 2%;
     margin-left: -40%;
     margin-top: 2%;
-    border-radius: 10px; 
-}
 
+}
 .form-group input {
-    padding: 10%;
-    width: 100%;
+    width: 50%;
+    padding: 1%;
     background-color: #F2F2F2;
     border: none;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px;
-    margin-left: -34%;
-    color: rgba(27, 27, 27, 0.779);
-    font-size: 25px;
-    display: inline-block;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
-.cuestionario select{
-    background-color: #F2F2F2;
-    color: #2B99A5;
-    font-size: 25px;
-    width: 102%;
-    padding: 10px;
-    margin-left: -34%;
-    border-radius: 15px;
-    border: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-/* cargar pdf */
- 
-.imgC {
-    width: 100px;
-    height: 80px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-.file-label {
-    position: absolute;
-    left: 1480px;
-    border-radius: 10px;
-    padding: 10px;
-    width: 24px;
-    display: flex;
-    align-items: center;
-    margin-top: -6%;
-}
-
-/* Boton y checkbox */
 
 .container {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    position: absolute;
-    left: 760px;
-    top: 1820px;
-    width: 370px;
-    height: 20px;
-    background: #fff;
-    margin-top: 21%;
+display: flex;
+align-items: center;
+margin-top: 10px;
+position: absolute;
+left: 760px;
+top: 1820px;
+width: 370px;
+height: 20px;
+background: #fff;
+
 }
 
 .checkbox-label {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3vw;
-    font-weight: 300;
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 0px;
-    white-space: nowrap;
-    overflow: hidden;
+font-family: 'Lato', sans-serif;
+font-size: 1.3vw;
+font-weight: 300;
+position: absolute;
+margin-left: 30px;
+margin-top: 0px;
+white-space: nowrap;
+overflow: hidden;
+
 }
 
 .checkbox-input {
-    transform: scale(2.0);
-    margin-right: 10px;
-    cursor: pointer;
+transform: scale(2.0);
+margin-right: 10px;
 }
 
 .custom-select {
@@ -272,33 +207,52 @@ body {
     width: 967px;
     margin: 10px;
     background-color: #f2f2f2;
-    color: #2D9AA6;
+    color: #2D9AA6; 
     border: none;
 }
 
-
-.custom-select option { /* Estilo para los opciones del select */
-    background-color: #f2f2f2;
+/* Estilo para los opciones del select */
+.custom-select option {
+    background-color: #f2f2f2; 
     color: #1e7781;
 }
 
-.Boton {
-    background-color: #EF5036;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    padding: 10px 60px;
-    border-radius: 15px;
-    margin-left: 44%;
-    text-align: center;
-    border: none;
-    margin-top: 10%;
-    text-decoration: none;
-    transition-duration: 0.4s;
-    cursor: pointer;
+.boton-enviar {
+background-color: #F52C00;
+border: none;
+color: white;
+padding: 10px 60px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: 'Lato', sans-serif;
+font-size: 25px;
+font-weight: 400;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 12px;
+position: absolute;
+top: 208%;
+left: 50%;
+transform: translate(-50%, -50%);
+
 }
 
-.Boton:hover {
-    background-color: #ffffff;
-    color: #EF5036;
+.boton-enviar:hover {
+background-color: rgb(151, 67, 67);
 }
+
+/* Cargar pdf */
+.file-label {
+position: absolute;
+top: 626px;
+left: 840px;
+border: 3px solid #2D9AA6;
+border-radius: 10px;
+padding: 10px;
+width: 24px;
+display: flex;
+align-items: center;
+}
+/* /Cargar pdf */
