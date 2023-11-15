@@ -53,10 +53,16 @@
     padding: 0px;
     margin: 0%;
     height: 3px;
+    background-color: #ffffff;
+    border: none;
+   } 
+   .barra_inicio button:hover hr{
+    padding: 0px;
+    margin: 0%;
+    height: 3px;
     background-color: #EF5036;
     border: none;
    } 
-  
    .lg {
       display: flex;
       justify-content: center;
