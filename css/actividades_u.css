@@ -227,26 +227,38 @@ textarea:focus {
     transform: translateX(-230%);
 }
 
-
 .buscador {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 20%;
+    margin-top: 5%; /* Puedes ajustar el valor según sea necesario */
 }
 
 .columna {
     flex: 0 0 45%;
     text-align: left;
     margin-right: 5%;
+    width: 250px;
+    height: 20px;
 }
 
 .columna2 {
     flex: 0 0 45%;
     text-align: left;
+    margin-bottom: 20%;
+    width: 200px;
+    height: 20px;
 }
 
 .Lupa {
-    width: 20px; /* Ajusta el ancho de la lupa según tus necesidades */
+    width: 200px; /* Ajusta el ancho de la lupa según tus necesidades */
     height: 20px; /* Ajusta la altura de la lupa según tus necesidades */
     cursor: pointer;
+    margin-right: 50px;
+}
+
+.columna2 {
+    text-align: left;
+    margin-right: 5%; /* Puedes ajustar el valor según sea necesario */
 }
