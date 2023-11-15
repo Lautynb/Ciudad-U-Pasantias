@@ -11,8 +11,8 @@
         <header>
           <nav>
             <div class="logo">
-              <img width='80' height='70' src='./image/LogoCU.png'>
-              <img width='200' height='70' src='./image/logo2.PNG'>
+              <img width='80' height='70' src='/image/LogoCU.png'>
+              <img width='200' height='70' src='/image/logo2.PNG'>
             </div>
             <ul>
     
@@ -50,34 +50,27 @@
 
         </div>
 
-        <img class="Icono" src="image/fotoActividaes1.png">
+        <img class="Icono" src="/image/fotoActividaes1.png">
 
     </div>
 
-    <div class="Cuestionario">
-        <form action="/my-handling-form-page" method="post">
-
-
             <div class="fila">
 
-                <div class="columna">
+                <div class="buscador">
+                    <div class="columna">
+                        <input type="text" id="temaInput" name="tema" placeholder="Buscar según tema/carrera/universidad">
+                    </div>
+                    <div class="columna">
+                        <img class="Lupa" src="/image/Lupa.svg" alt="Buscar" onclick="buscarPorTema()">
+                    </div>
 
-                    <input type="text" id="name" name="user_name">
-                    <p class="ParrafoC">Buscar según tema/carrera/universidad</p> </input>
+                    <div class="columna2">
+                        <input type="text" id="uniInput" name="uni" placeholder="Elegir uni">
+                    </div>
+                </div>              
+               
 
-                </div>
-                <div class="columna">
-
-                    <img class="Lupa" src="/image/Lupa.svg">
-
-                </div>
-
-                <div class="columna2">
-
-                    <input type="text2" id="name" name="user_name">
-                    <p class="ParrafoC2">Elegir uni</p> </input>
-
-                </div>
+                
                 <div class="columna2">
 
                     <img class="Menu" src="/image/menu.svg">

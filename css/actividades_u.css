@@ -226,3 +226,27 @@ textarea:focus {
     top: 65px;
     transform: translateX(-230%);
 }
+
+
+.buscador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columna {
+    flex: 0 0 45%;
+    text-align: left;
+    margin-right: 5%;
+}
+
+.columna2 {
+    flex: 0 0 45%;
+    text-align: left;
+}
+
+.Lupa {
+    width: 20px; /* Ajusta el ancho de la lupa según tus necesidades */
+    height: 20px; /* Ajusta la altura de la lupa según tus necesidades */
+    cursor: pointer;
+}
