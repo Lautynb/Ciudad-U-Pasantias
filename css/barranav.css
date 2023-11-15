@@ -99,7 +99,7 @@ a {
   color: white;
 }
 
-a:hover {
+button:hover a{
   text-decoration: none;
   transition-duration: 0.4s;
   color: #EF5036;
