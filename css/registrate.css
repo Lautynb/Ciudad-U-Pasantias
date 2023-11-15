@@ -5,10 +5,23 @@
 body {
 
     background-color: white;
-    margin: 0;
+    margin-top: 15%;
     padding: 0;
 }
-
+.barra_inicio hr{
+    padding: 0px;
+    margin: 0px;
+    height: 3px;
+    background-color: #ffffff;
+    border: none;
+   } 
+   .barra_inicio button:hover hr{
+    padding: 0px;
+    margin: 0%;
+    height: 3px;
+    background-color: #EF5036;
+    border: none;
+   } 
 .titulo {
     font-family: 'Lato', sans-serif;
     text-align: left;
