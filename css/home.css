@@ -45,7 +45,7 @@ html{
     float: left;
     justify-content: center;
     margin-left: 160px;
-    color: #2D9AA6;
+    color: #2D9AA;
   }
 
   .fila {
@@ -163,14 +163,16 @@ overflow: visible;
 }
 
 .carousel-slide {
-display: none;
+display: none; 
 }
 .carousel-button {
 position: absolute;
+margin: 0px;
+padding-left: 222px;
 }
 .b2b img {
-width: 600px;
-height: 600px;
+width: 400px;
+height: 400px;
 }
   .b3 {
 
