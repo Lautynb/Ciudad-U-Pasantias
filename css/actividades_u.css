@@ -1,7 +1,7 @@
 header {
     background: hsla(0, 0%, 92%, 0.774);
     width: 100%;
-    weight: 5%;
+    height: 5%;
     position: fixed;
     z-index: 100;
     margin-top: 0%;
@@ -49,122 +49,7 @@ h3 {
 
 .Mapa {
     margin-left: 20%;
-    margin-top: -12%;
-}
-
-.Ctext {
-    color: #CC2B9E;
-}
-
-.Cuestionario {
-    max-width: 50%;
-    margin: 0 auto;
-    text-align: center;
     margin-top: 10%;
-}
-
-.fila {
-    display: flex;
-    margin-bottom: 60px;
-}
-
-.columna {
-    flex: 45%;
-    text-align: left;
-    margin-left: -45%;
-    padding-right: 0px;
-}
-
-.columna2 {
-    text-align: left;
-    margin-right: -15%;
-    padding-right: 0px;
-}
-
-.column:last-child {
-    padding-right: 0;
-}
-
-.Cuestionario label {
-    color: rgba(27, 27, 27, 0.779);
-    font-size: 40px;
-    display: block;
-    margin-bottom: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-input[type="text"],
-textarea {
-    width: 140%;
-    padding: 25px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    border-radius: 35px;
-    border: 1px solid #ddd;
-    background-color: #F2F2F2;
-}
-
-input[type="text2"],
-textarea {
-    width: 160%;
-    padding: 25px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    border-radius: 35px;
-    border: 1px solid #ddd;
-    background-color: #F2F2F2;
-}
-
-input[type="text"] {
-    height: 40px;
-}
-
-input[type="text2"] {
-    height: 40px;
-}
-
-textarea {
-    height: 100px;
-}
-
-input[type="text"]:focus,
-textarea:focus {
-    outline: none;
-}
-
-input[type="text2"]:focus,
-textarea:focus {
-    outline: none;
-}
-
-.Lupa {
-    margin-left: -42%;
-    margin-top: 2%;
-}
-
-.ParrafoC {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #2D9AA6;
-    margin-top: -6.5%;
-    margin-left: 22%;
-    font-size: 30px;
-    width: 100%;
-    font-weight: bold;
-}
-
-.Menu {
-    margin-left: -40%;
-    margin-top: 50%;
-}
-
-.ParrafoC2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #2D9AA6;
-    margin-top: -31%;
-    margin-left: 60%;
-    font-size: 30px;
-    width: 100%;
-    font-weight: bold;
 }
 
 .cuadro {
@@ -227,38 +112,36 @@ textarea:focus {
     transform: translateX(-230%);
 }
 
-.buscador {
+/* Buscador */
+
+.Buscador {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-left: 20%;
-    margin-top: 5%; /* Puedes ajustar el valor según sea necesario */
+    margin-top: 300px;
+    margin-right: 80%;
 }
 
-.columna {
-    flex: 0 0 45%;
-    text-align: left;
-    margin-right: 5%;
-    width: 250px;
-    height: 20px;
+.Buscador input {
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 8px;
+    width: 300px;
+    margin-right: 10px;
 }
 
-.columna2 {
-    flex: 0 0 45%;
-    text-align: left;
-    margin-bottom: 20%;
-    width: 200px;
-    height: 20px;
-}
-
-.Lupa {
-    width: 200px; /* Ajusta el ancho de la lupa según tus necesidades */
-    height: 20px; /* Ajusta la altura de la lupa según tus necesidades */
+.BotonUni {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
     cursor: pointer;
-    margin-right: 50px;
 }
 
-.columna2 {
-    text-align: left;
-    margin-right: 5%; /* Puedes ajustar el valor según sea necesario */
+.BotonUni img {
+    width: 20px;
+    margin-right: 5px;
 }
+
+/* /Buscador */
