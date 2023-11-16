@@ -2,12 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+html{
+    margin-top: 5%;
+}
+header{
+    margin-top: -5%;
+}
 body {
-
     background-color: white;
-    margin-top: 15%;
     padding: 0;
-    margin-block-end: 20%;
+    margin-block-end: 10%;
 }
 .barra_inicio hr{
     padding: 0px;

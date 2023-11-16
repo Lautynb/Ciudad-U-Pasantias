@@ -1,8 +1,13 @@
+html {
+    margin-top: 5%;
+}
+
 header {
     background: hsla(0, 0%, 92%, 0.774);
     width: 100%;
     position: fixed;
     z-index: 100;
+    margin-top: -5%;
 }
 
 .ContenidoAlineado {
