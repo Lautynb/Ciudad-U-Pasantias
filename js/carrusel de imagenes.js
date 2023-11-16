@@ -1,29 +1,29 @@
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  const slides = Home.getElementsByClassName("carousel-images")[0].getElementsByTagName("img");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 2000); // Cambiar cada 2 segundos. Puedes ajustar este valor según tus necesidades.
-}
-
-Home.getElementById("prevBtn").addEventListener("click", function () {
-  slideIndex -= 2;
-  showSlides();
-});
-
-Home.getElementById("nextBtn").addEventListener("click", function () {
-  showSlides();
-});
-
-
-
-
+document.addEventListener("DOMContentLoaded", function () {
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.carousel-slide');
+  
+    function showSlide(index) {
+      slides.forEach((slide) => {
+        slide.style.display = 'none';
+      });
+  
+      slides[index].style.display = 'block';
+    }
+  
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+  
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+  
+    // Mostrar la primera imagen al cargar la página
+    showSlide(currentIndex);
+  
+    // Controladores de eventos para los botones de siguiente y anterior
+    document.getElementById('nextBtn').addEventListener('click', nextSlide);
+    document.getElementById('prevBtn').addEventListener('click', prevSlide);
+  });

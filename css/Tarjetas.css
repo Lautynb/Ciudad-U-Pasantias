@@ -1,4 +1,11 @@
 /* VERDES */
+.Tarjetas p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 15%;
+}
 .card {
   width: 200px;
   height: 200px;

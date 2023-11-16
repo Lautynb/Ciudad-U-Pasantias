@@ -7,6 +7,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-left: 15%;
       gap: 70px;
       padding-top: 200px;
     }
@@ -24,15 +25,15 @@
     .Titulo {
       color: #2D9AA6;
       font-size: 80px;
-      width: 25%;
+      width: 35%;
       font-family: Arial, Helvetica, sans-serif;
       ;
     }
   
     .Parrafo1 {
-      font-size: 50px;
-      width: 1300px;
-      margin-left: 180px;
+      font-size: 35px;
+      width: 1100px;
+      margin-left: 300px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-top: 150px;
       display: flex;
@@ -40,7 +41,7 @@
     }
   
     .Tienda2 {
-      margin-right: -150px;
+      margin-right: 1%;
     }
   
     .Ctext {
@@ -58,7 +59,7 @@
     .Parrafo2 {
       text-align: center;
       color: rgba(27, 27, 27, 0.779);
-      font-size: 35px;
+      font-size: 30px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
   
@@ -69,7 +70,7 @@
       margin-top: 5%;
     }
   .h5{
-    font-size: 30px;
+    font-size: 20px;
     color:#2D9AA6 ;
   }
     .row {
@@ -89,8 +90,8 @@
   
     .Cuestionario label {
       color: rgba(27, 27, 27, 0.779);
-      font-size: 40px;
-      margin-top: 5%;
+      font-size: 30px;
+      margin-top: 4%;
       display: block;
       margin-bottom: 5px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -99,10 +100,10 @@
     input[type="text"],
     textarea {
       width: 150%;
-      padding: 20px;
+      padding: 10px;
       margin-top: 5px;
       margin-bottom: 1px;
-      border-radius: 40px;
+      border-radius: 20px;
       border: 1px solid #ddd;
       background-color: #F2F2F2;
     }
@@ -124,8 +125,8 @@
     .Terminos {
       color: rgb(59, 59, 59);
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 30px;
-      margin-top: 4%;
+      font-size: 25px;
+      margin-top: 8%;
       text-align: center;
     }
   
@@ -144,9 +145,9 @@
       content: '';
       position: absolute;
       left: -10%;
-      top: -30%;
-      width: 60px;
-      height: 60px;
+      top: -40%;
+      width: 55px;
+      height: 55px;
       border-radius: 15%;
     }
   
@@ -165,4 +166,5 @@
       text-align: center;
       border: none;
       margin-top: 4%;
+      margin-block-end: 5%;
     }
