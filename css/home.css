@@ -30,7 +30,7 @@ html{
   }
 
   .lista1 {
-    list-style-image: url("./image/lista1.png");
+    list-style-image: url("/image/lista1.png");
   }
 
   .image {
@@ -81,67 +81,70 @@ html{
 .ParrafoC {
     margin-top: 25px;
 }
-  .b2b {
-    background: #08545B;
-    list-style: none;
-    width: 100%;
-    display: block;
-    float: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+.b2b {
+  background: #08545B;
+  list-style: none;
+  width: 100%;
+  display: block;
+  float: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-  .titulo2b {
-    list-style: none;
-    padding-top: 40px;
-    margin-left: 200px;
-    color: #e06907;
-    font-size: 20px;
+.titulo2b {
+  list-style: none;
+  padding-top: 40px;
+  margin-left: 200px;
+  color: #e06907;
+  font-size: 20px;
+width: 470px;
+}
 
-  }
+.subtitulo2b {
+  list-style: none;
+  padding-top: 10px;
+  margin-left: 200px;
+  color: #ffffff;
+  font-size: 30px;
+  width: 410px;
 
-  .subtitulo2b {
-    list-style: none;
-    padding-top: 10px;
-    margin-left: 200px;
-    color: #ffffff;
-    font-size: 30px;
+}
 
-  }
+.parrafo2b {
+  padding-bottom: 30px;
+  list-style: none;
+  padding-top: 10px;
+  margin-left: 200px;
+  width: 600px;
+  color: #ffffff;
+  font-size: 20px;
 
-  .parrafo2b {
-    padding-bottom: 30px;
-    list-style: none;
-    padding-top: 10px;
-    margin-left: 200px;
-    width: 600px;
-    color: #ffffff;
-    font-size: 20px;
+}
+.parrafo2b a{
+color: #ffffff;
+}
+.parrafo2b button {
 
-  }
+  background-color: #EF5036;
 
-  .parrafo2b button {
+  color: white;
 
-    background-color: #EF5036;
+  border: none;
 
-    color: white;
+  padding: 5px 10px;
 
-    border: none;
+  cursor: pointer;
 
-    padding: 5px 10px;
+  text-align: center;
 
-    cursor: pointer;
+  text-decoration: none;
 
-    text-align: center;
-
-    text-decoration: none;
-
-    display: inline-block;
-    border-radius: 5px;
-    font-size: 30px;
-    margin: 4px 2px;
-    margin-left: 100px;
-    transition-duration: 0.4s;
-  }
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 30px;
+  margin: 4px 2px;
+  margin-left: 100px;
+  transition-duration: 0.4s;
+}
 
 .parrafo2b  button:hover {
 
@@ -151,45 +154,24 @@ color: #EF5036;
 
 }
 
-  .carousel {
-    float: right;
-    margin-right: 200px;
-    position: relative;
-    max-width: 400px;
-    max-height: 500px;
-    /* ajusta el ancho según sea necesario */
-  }
+.carousel-container {
+width: 80%;
+margin: auto;
+overflow: hidden;
+display: block;
+overflow: visible;
+}
 
-  .carousel-images {
-    display: flex;
-
-    overflow: hidden;
-  }
-
-  .carousel-images img {
-    width: 100%;
-  }
-
-  #prevBtn,
-  #nextBtn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #000;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
-
-  #prevBtn {
-    left: 0;
-  }
-
-  #nextBtn {
-    right: 0;
-  }
-
+.carousel-slide {
+display: none;
+}
+.carousel-button {
+position: absolute;
+}
+.b2b img {
+width: 600px;
+height: 600px;
+}
   .b3 {
 
     background: #ffffff;
