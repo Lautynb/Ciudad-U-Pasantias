@@ -111,3 +111,7 @@ header {
     margin-block-end: 5%;
     cursor: pointer;
 }
+.Boton:hover {
+    background-color: #ffffff;
+    color: #EF5036;
+  }
