@@ -48,12 +48,11 @@
   transition-duration: 0.4s;
   color: #EF5036;
   }
-  
   .barra_inicio hr{
     padding: 0px;
     margin: 0%;
     height: 3px;
-    background-color: #ffffff;
+    background-color: #ffffff00;
     border: none;
    } 
    .barra_inicio button:hover hr{
@@ -123,7 +122,7 @@
   
   input[type="submit"]:hover {
       background-color: #ffffff;
-      color: black;
-      border: #EF5036;
+      color: rgb(0, 0, 0);
+      border: #ef7136;
       border: 10px;
   }
