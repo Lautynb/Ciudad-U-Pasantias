@@ -5,6 +5,7 @@
     <title>Forma parte de Ciudad U!</title>
     <link rel="stylesheet" href="/css/registrate.css">
     <link rel="stylesheet" href="/css/barranav.css">
+    <script src="/js/registro.js"></script>
     <Header>
         <nav>
             <div class="logo">
@@ -70,7 +71,7 @@
     <form >
 <div class="cuestionario">
         <div class="form-group">
-                <label for="nombre" ;">Nombre</label>
+                <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre">
                   
             </div>
@@ -91,32 +92,32 @@
             </div>
 
             <div class="form-group">
-                <label for="apellido">Mail:</label>
-                <input type="text" id="apellido" name="apellido"
+                <label for="EMAIL">Mail:</label>
+                <input type="text" id="mail" name="mail"
                     style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
             </div>
 
             <div class="form-group">
-                <label for="apellido">Fecha_de_nacimiento:</label>
-                <input type="text" id="apellido" name="apellido"
+                <label for="FDN">Fecha_de_nacimiento:</label>
+                <input type="text" id="FDN" name="FDN"
                     style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
             </div>
 
             <div class="form-group">
-                <label for="apellido">Telefono:</label>
-                <input type="text" id="apellido" name="apellido"
+                <label for="tell">Telefono:</label>
+                <input type="text" id="tell" name="tell"
                     style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
             </div>
 
             <div class="form-group">
-                <label for="apellido">Ciudad:</label>
-                <input type="text" id="apellido" name="apellido"
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad"
                     style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
             </div>
 
             <div class="form-group">
-                <label for="apellido">Universidad:</label>
-                <select id="sexo" name="sexo" style="border-radius: 10px; padding:10px; width: 967px;margin: 10px;">
+                <label for="Universidad">Universidad:</label>
+                <select id="Universidad" name="Universidad" style="border-radius: 10px; padding:10px; width: 967px;margin: 10px;">
                     <option value="femenino">Pre</option>
                     <option value="masculino">Uncuyo</option>
                     <option value="otro">Uch</option>
@@ -130,14 +131,14 @@
             </div>
 
             <div class="form-group">
-                <label for="apellido">DNI/Pasaporte:</label>
-                <input type="text" id="apellido" name="apellido"
+                <label for="documento">DNI/Pasaporte:</label>
+                <input type="text" id="documento" name="documento"
                     style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
             </div>
 
             <div class="form-group">
-                <label for="apellido">Constancia:</label>
-                <input type="text" id="apellido" name="apellido"
+                <label for="constancia">Constancia:</label>
+                <input type="text" id="constancia" name="constancia"
                     style="border-radius: 10px; padding:10px; width: 800px;margin: 10px;">
             </div>
 
@@ -149,7 +150,7 @@
                     <img src="/image/pdf.PNG" alt="Adjuntar icono"
                         style="width: 50px; height: 60px; margin-right: 10px;">
                 </label>
-                <input type="file" id="file-upload" name="constancia" accept=".pdf" style="display: none;"
+                <input type="file" id="constancia" name="constancia" accept=".pdf" style="display: none;"
                     onchange="displayFileName()" />
             </div>
 
@@ -158,14 +159,14 @@
 
 
             <div class="form-group">
-                <label for="apellido">Nombre_usuario:</label>
-                <input type="text" id="apellido" name="apellido"
+                <label for="user">Nombre_usuario:</label>
+                <input type="text" id="user" name="user"
                     style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
             </div>
 
             <div class="form-group">
-                <label for="apellido">Contraseña:</label>
-                <input type="text" id="apellido" name="apellido"
+                <label for="contraseña">Contraseña:</label>
+                <input type="text" id="contraseña" name="contraseña"
                     style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
             </div>
         </div>
@@ -175,9 +176,9 @@
         <input type="checkbox" id="terms" class="checkbox-input">
         <label for="terms" class="checkbox-label">Acepto términos y condiciones</label>
     </div>
-
-    <button class="boton-enviar">Enviar</button>
-
+<div id="rgboton" class="boton-enviar"><button class="boton-enviar">Enviar</button></div>
+    
+<script src="/js/registro.js"></script>
 </body>
 
 
