@@ -105,7 +105,7 @@ body {
     background-position: center bottom;
 }
 
-.lineuno {
+.lineuno { 
     position: absolute;
     width: 120px;
     height: 290px;
@@ -142,26 +142,18 @@ body {
     left: 770px;
 }
 
-.cuestionario {
-    padding-top: 100px;
-    background-color: red;
-    width: 50%; /* Ajusta el ancho según tus necesidades */
-    margin: 0 auto;
-}
-
 .form-group {
     margin-right: 83px;
     margin-bottom: 1.6%;
     display: flex;
     align-items: center;
-    margin: 10px;
-    margin-right: 100%;
-    float: center;
+    margin: 10p;
+    
+    
 }
-
 .form-group label {
     font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    font-size: 1.7vw;
     font-weight: 300;
     position: absolute;
     width: 15%;
@@ -171,7 +163,6 @@ body {
     margin-top: 2%;
 
 }
-
 .form-group input {
     width: 50%;
     padding: 1%;
@@ -181,31 +172,33 @@ body {
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    position: absolute;
-    left: 760px;
-    top: 1820px;
-    width: 370px;
-    height: 20px;
-    background: #fff;
+display: flex;
+align-items: center;
+margin-top: 10px;
+position: absolute;
+left: 760px;
+top: 1820px;
+width: 370px;
+height: 20px;
+background: #fff;
+
 }
 
 .checkbox-label {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3vw;
-    font-weight: 300;
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 0px;
-    white-space: nowrap;
-    overflow: hidden;
+font-family: 'Lato', sans-serif;
+font-size: 1.3vw;
+font-weight: 300;
+position: absolute;
+margin-left: 30px;
+margin-top: 0px;
+white-space: nowrap;
+overflow: hidden;
+
 }
 
 .checkbox-input {
-    transform: scale(2.0);
-    margin-right: 10px;
+transform: scale(2.0);
+margin-right: 10px;
 }
 
 .custom-select {
@@ -214,53 +207,52 @@ body {
     width: 967px;
     margin: 10px;
     background-color: #f2f2f2;
-    color: #2D9AA6;
+    color: #2D9AA6; 
     border: none;
 }
 
 /* Estilo para los opciones del select */
 .custom-select option {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; 
     color: #1e7781;
 }
 
 .boton-enviar {
-    background-color: #F52C00;
-    border: none;
-    color: white;
-    padding: 10px 60px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Lato', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 12px;
-    position: absolute;
-    top: 208%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+background-color: #F52C00;
+border: none;
+color: white;
+padding: 10px 60px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: 'Lato', sans-serif;
+font-size: 25px;
+font-weight: 400;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 12px;
+position: absolute;
+top: 208%;
+left: 50%;
+transform: translate(-50%, -50%);
 
 }
 
 .boton-enviar:hover {
-    background-color: rgb(151, 67, 67);
+background-color: rgb(151, 67, 67);
 }
 
 /* Cargar pdf */
 .file-label {
-    position: absolute;
-    top: 626px;
-    left: 840px;
-    border: 3px solid #2D9AA6;
-    border-radius: 10px;
-    padding: 10px;
-    width: 24px;
-    display: flex;
-    align-items: center;
+position: absolute;
+top: 626px;
+left: 840px;
+border: 3px solid #2D9AA6;
+border-radius: 10px;
+padding: 10px;
+width: 24px;
+display: flex;
+align-items: center;
 }
-
 /* /Cargar pdf */

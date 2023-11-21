@@ -4,6 +4,7 @@
     <title>Forma parte de Ciudad U!</title>
     <link rel="stylesheet" href="/css/registratestyle.css">
     <link rel="stylesheet" href="/css/barranav.css">
+    <script src="/js/registrate.js"></script>
    <header> <nav>
     <div class="logo">
       <img width='80' height='70' src='/image/LogoCU.png'>
@@ -30,6 +31,7 @@
 </header>
 </head>
 <body>
+
     <div class="centered-image">
         <img src="/image/title.PNG" alt="Imagen centrada" WIDTH="369" HEIGHT="255">
     </div>
@@ -77,7 +79,7 @@
     
       <div class="form-group">
         <label for="sexo">Sexo:</label>
-        <select id="sexo" name="sexo" style="border-radius: 10px; padding:10px; width: 967px;margin: 10px;">
+        <select id="sexo" name="sexo" class="custom-select">
             <option value="femenino">Selecciona una opción</option>
             <option value="femenino">Femenino</option>
             <option value="masculino">Masculino</option>
@@ -87,27 +89,27 @@
 
     <div class="form-group">
         <label for="apellido">Mail:</label>
-        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        <input type="text" id="mail" name="mail" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
         </div>
 
     <div class="form-group">
         <label for="apellido">Fecha de nacimiento:</label>
-        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        <input type="text" id="fechanac" name="fechanac" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
         </div>
 
     <div class="form-group">
         <label for="apellido">Telefono:</label>
-        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        <input type="text" id="telefono" name="telefono" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
         </div>
 
     <div class="form-group">
         <label for="apellido">Ciudad:</label>
-        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        <input type="text" id="ciudad" name="ciudad" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
         </div>
 
         <div class="form-group">
             <label for="sexo">Universidad:</label>
-            <select id="sexo" name="sexo" class="custom-select">
+            <select id="uni" name="uni" class="custom-select">
                 <option value="femenino">Selecciona una opción</option>
                 <option value="femenino">Pre</option>
                 <option value="masculino">Uncuyo</option>
@@ -124,12 +126,12 @@
 
     <div class="form-group">
         <label for="apellido">DNI/Pasaporte:</label>
-        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        <input type="text" id="dni" name="dni" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
         </div>
 
         <div class="form-group">
             <label for="apellido">Constancia:</label>
-            <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 800px;margin: 10px;">
+            <input type="text" id="constancia" name="constancia" style="border-radius: 10px; padding:10px; width: 800px;margin: 10px;">
         </div>
         
         <!--ADJUNTAR PDF CONSTANCIA-->
@@ -147,12 +149,12 @@
 
     <div class="form-group">
         <label for="apellido">Nombre de usuario:</label>
-        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        <input type="text" id="usuario" name="usuario" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
         </div>
 
     <div class="form-group">
         <label for="apellido">Contraseña:</label>
-        <input type="text" id="apellido" name="apellido" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
+        <input type="text" id="contraseña" name="contraseña" style="border-radius: 10px; padding:10px; width: 943px;margin: 10px;">
         </div>
 
   </form>  
@@ -162,7 +164,6 @@
     <label for="terms" class="checkbox-label">Acepto términos y condiciones</label>
   </div>
 
-  <button class="boton-enviar">Enviar</button>
-
+  <button class="botonenviar">Enviar</button>
 </body>
 </html>
