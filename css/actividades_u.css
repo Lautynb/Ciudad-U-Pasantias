@@ -115,10 +115,11 @@ h3 {
 /* Buscador */
 
 .Buscador {
-    display: flex;
-    align-items: center;
-    margin-top: 300px;
-    margin-right: 80%;
+    border-radius: 35px; 
+    padding:30px; 
+    width: 1300px; 
+    margin: 20px; 
+    position: absolute;
 }
 
 .Buscador input {
