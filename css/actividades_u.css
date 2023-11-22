@@ -134,16 +134,17 @@ h3 {
     background-color: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 20px;
-    padding: 8px 15px;
+    padding: 30px 15px;
     display: flex;
     align-items: center;
     cursor: pointer;
-    height: 60px;
+    height: 82px;
     width: 140px;
+    margin-left: 1500px;
 }
 
 .BotonUni img {
-    width: 20px;
+    width: 30px;
     margin-right: 5px;
 }
 
