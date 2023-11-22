@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Página Principal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor {
+            position: fixed;
+            top: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .imagen {
+            cursor: pointer;
+            width: 80px;
+        }
+
+        .nombre-usuario {
+            padding: 5px;
+            font-size: 15px;
+            text-align: left;
+            background-color: #f0f0f000;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .lista {
+            display: none;
+            position: absolute;
+            text-align: left;
+            background-color: transparent;
+            border: 0px solid transparent;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            top: 100%;
+            right: 0;
+            padding: 0;
+            overflow: hidden;
+            max-height: 300px;
+            transition: max-height 0.5s linear;
+        }
+
+        .lista a {
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+
+        .lista li {
+            list-style: none;
+            border-bottom: 3px solid #ccc;
+            border-color: #158E9B;
+        }
+
+        .lista.mostrar {
+            max-height: 300px;
+            border: 5px solid transparent;
+            border-radius: 5%;
+            display: block;
+        }
+
+        .lista:not(.mostrar) {
+            border: 0px solid transparent;
+            border: 5px solid transparent;
+            border-radius: 5%;
+            display: block;
+        }
+    </style>
+    <script>
+        var nombreUsuario = localStorage.getItem('username');
+
+        if (nombreUsuario) {
+            document.getElementById('inicioSesion').style.display = 'none';
+            document.getElementById('sesionIniciada').style.display = 'block';
+            document.getElementById('nombreUsuario').textContent = 'Bienvenido, ' + nombreUsuario;
+        }
+
+        function login(userType) {
+            var username = document.getElementById(userType + '-username').value;
+            var password = document.getElementById(userType + '-password').value;
+
+            if (username === "Don pollo" && password === 's') {
+
+                localStorage.setItem('username', username);
+
+                document.getElementById('inicioSesion').style.display = 'none';
+                document.getElementById('sesionIniciada').style.display = 'block';
+                document.getElementById('nombreUsuario').textContent = 'Bienvenido, ' + username;
+            } else {
+                alert('Datos Incorrectos. Intenta de nuevo.');
+            }
+        }
+
+        function cerrarSesion() {
+            localStorage.removeItem('username');
+
+            document.getElementById('inicioSesion').style.display = 'block';
+            document.getElementById('sesionIniciada').style.display = 'none';
+
+            document.getElementById('nombreUsuario').textContent = '';
+
+            // Ocultar la lista si está visible
+            var miLista = document.getElementById('miLista');
+            if (miLista.style.display === 'block') {
+                miLista.style.display = 'none';
+            }
+        }
+
+        function mostrarLista() {
+            var miLista = document.getElementById('miLista');
+            miLista.style.display = (miLista.style.display === 'none' || miLista.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="inicioSesion">
+        <div class="lg">
+            <div class="login-container">
+                <form class="login-form">
+                    <h1>Iniciar Sesión (Estudiante)</h1>
+                    <hr>
+                    <label for="student-username">Usuario</label>
+                    <input type="text" id="student-username" name="student-username" required>
+                    <label for="student-password">Contraseña</label>
+                    <input type="password" id="student-password" name="student-password" required>
+                    <button type="button" class="botonesIR" onclick="login('student')">Iniciar Sesión</button>
+                </form>
+            </div>
+            <div class="login-container">
+                <form class="login-form">
+                    <h1>Iniciar Sesión (Comerciante)</h1>
+                    <hr>
+                    <label for="merchant-username">Usuario</label>
+                    <input type="text" id="merchant-username" name="merchant-username" required>
+                    <label for="merchant-password">Contraseña</label>
+                    <input type="password" id="merchant-password" name="merchant-password" required>
+                    <button type="button" class="botonesIR" onclick="login('merchant')">Iniciar Sesión</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="sesionIniciada" style="display: none;">
+        <div class="contenedor">
+            <span class="nombre-usuario" id="nombreUsuario"></span>
+            <img class="imagen" src="/image/menu.svg" onclick="mostrarLista()">
+            <ul class="lista" id="miLista">
+                <li><a href="#">Mis datos</a></li>
+                <li><a href="#">Cambiar Contraseña</a></li>
+                <li><a href="#" onclick="cerrarSesion()">Salir🥺</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
