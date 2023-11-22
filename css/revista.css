@@ -7,9 +7,26 @@ body {
     background-color: white;
     margin: 5;
     padding: 5;
+    margin-top: 8%;
 }
-
+header{
+    margin-top: -6%;
+}
+.cuadro {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 25%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 90%;
+    border: 10px solid #1895A0;
+    padding: 10px;
+    margin-block-end: 5%;
+}
 .centered-image {
+    margin-top: 6%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +41,7 @@ body {
 /* imgslider */
 
 body {
+    margin-top: 8%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -39,9 +57,11 @@ body {
 
 #slider>ul,
 li {
+    bottom: 70px;
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
 
 #slider>ul.slider {
@@ -94,12 +114,15 @@ li {
 }
 
 #slider > .menu li {
+    
     display: block; 
     margin: 10px;
     margin-right: 10px;
 }
 
 #slider > .menu li a {
+    left: 640px;
+
     display: block;
     text-decoration: none;
     background-color: rgb(182, 52, 52);
@@ -163,13 +186,13 @@ li {
 }
 
 #slider > .menu li input[type="radio"]:checked + label {
-    background-color: #1895A0; 
+    background-color: #1895a091; 
 }
 
 #slider > .menu li a {
     display: block;
     text-decoration: none;
-    background-color: rgba(243, 89, 0, 0.521);
+    background-color: rgba(255, 155, 96, 0.521);
     padding: 3px;
     width: 12px;
     height: 12px;
@@ -178,6 +201,6 @@ li {
 }
 
 #slider > .menu li a.selected {
-    background-color: #1895A0; 
+    background-color: #68ecf893; 
 }
 
