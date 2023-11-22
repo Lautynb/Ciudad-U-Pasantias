@@ -55,7 +55,7 @@ li {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 10px;
-    left: 500%;
+    left: 100%;
     top: 100px;
     transform: translate(-50%, -50%);
 }
@@ -169,7 +169,7 @@ li {
 #slider > .menu li a {
     display: block;
     text-decoration: none;
-    background-color: #DDDDDD;
+    background-color: rgba(243, 89, 0, 0.521);
     padding: 3px;
     width: 12px;
     height: 12px;
