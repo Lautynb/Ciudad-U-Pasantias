@@ -8,6 +8,12 @@ body {
     margin: 5;
     padding: 5;
 }
+html{
+    margin-top: 5%;
+}
+header{
+    margin-top: -5%
+}
 
 .centered-image {
     display: flex;
