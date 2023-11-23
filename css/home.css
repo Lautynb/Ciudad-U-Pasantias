@@ -380,3 +380,13 @@ html {
   font-size: 40px;
 
 }
+
+/* Animacion de texto */
+
+#languageContainer {
+  text-align: center;
+}
+
+#changingText {
+  transition: opacity 0.5s ease-in-out;
+}
