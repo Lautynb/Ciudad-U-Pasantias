@@ -257,6 +257,7 @@ body {
 }
 
 .checkbox-label {
+    display: flex;
     font-family: 'Lato', sans-serif;
     font-size: 1.3vw;
     font-weight: 300;
@@ -308,4 +309,9 @@ body {
 .Boton:hover {
     background-color: #ffffff;
     color: #EF5036;
+}
+.boton-enviar{
+display: flex;
+margin-left: 28%;
+    font-size: 40px;
 }
