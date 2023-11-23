@@ -2,12 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-body {
+html{
+    margin-top: 0%;
+}
+header{
+    margin-top: -3%;
 
+}
+body {
     background-color: white;
-    margin-top: 15%;
     padding: 0;
-    margin-block-end: 20%;
+    margin-block-end: 8%;
 }
 .barra_inicio hr{
     padding: 0px;
@@ -26,7 +31,7 @@ body {
 .titulo {
     font-family: 'Lato', sans-serif;
     text-align: left;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 900;
     position: absolute;
     top: 300px;
@@ -50,7 +55,7 @@ body {
     height: 290px;
     margin: auto;
     top: 320px;
-    left: 550px;
+    left: 570px;
 }
 
 .preuniversitarios {
@@ -112,11 +117,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 30vh;
-    margin-bottom: 0px;
-    position: static;
+    margin-top: 3%;
     background-color: white;
     background-size: cover;
     background-position: center bottom;
+}
+
+.info{
 }
 
 .lineuno {
@@ -242,7 +249,7 @@ body {
     margin-top: 10px;
     position: absolute;
     left: 760px;
-    top: 1820px;
+    top: 1860px;
     width: 370px;
     height: 20px;
     background: #fff;

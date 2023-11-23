@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  background: #ffffff;
+  background: white;
   width: 120%;
   height: 10%;
   position: fixed;
@@ -44,7 +44,6 @@ nav ul li {
   float: left;
   color: #EF5036;
   font-family: Arial, Helvetica, sans-serif;
-  ;
   padding: 20px;
   font-size: 20px;
   cursor: pointer;

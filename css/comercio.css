@@ -7,6 +7,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-left: 15%;
       gap: 70px;
       padding-top: 200px;
     }
@@ -24,15 +25,15 @@
     .Titulo {
       color: #2D9AA6;
       font-size: 80px;
-      width: 25%;
+      width: 35%;
       font-family: Arial, Helvetica, sans-serif;
       ;
     }
   
     .Parrafo1 {
-      font-size: 50px;
-      width: 1300px;
-      margin-left: 180px;
+      font-size: 35px;
+      width: 1100px;
+      margin-left: 300px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-top: 150px;
       display: flex;
@@ -40,7 +41,7 @@
     }
   
     .Tienda2 {
-      margin-right: -150px;
+      margin-right: 1%;
     }
   
     .Ctext {
@@ -58,7 +59,7 @@
     .Parrafo2 {
       text-align: center;
       color: rgba(27, 27, 27, 0.779);
-      font-size: 35px;
+      font-size: 30px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
   
@@ -69,7 +70,7 @@
       margin-top: 5%;
     }
   .h5{
-    font-size: 30px;
+    font-size: 20px;
     color:#2D9AA6 ;
   }
     .row {
@@ -89,8 +90,8 @@
   
     .Cuestionario label {
       color: rgba(27, 27, 27, 0.779);
-      font-size: 40px;
-      margin-top: 5%;
+      font-size: 30px;
+      margin-top: 4%;
       display: block;
       margin-bottom: 5px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -99,10 +100,10 @@
     input[type="text"],
     textarea {
       width: 150%;
-      padding: 20px;
+      padding: 10px;
       margin-top: 5px;
       margin-bottom: 1px;
-      border-radius: 40px;
+      border-radius: 20px;
       border: 1px solid #ddd;
       background-color: #F2F2F2;
     }
@@ -121,38 +122,51 @@
       border-color: #CC2B9E;
     }
   
-    .Terminos {
-      color: rgb(59, 59, 59);
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 30px;
-      margin-top: 4%;
-      text-align: center;
-    }
-  
-    .Terminos input[type="checkbox"] {
-      display: none;
-    }
-  
-    .Terminos label {
-      position: relative;
-      padding-left: 45px;
-      cursor: pointer;
-    }
-  
-    .Terminos label::before {
-      background-color: #D9D9D9;
-      content: '';
+    .container {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
       position: absolute;
-      left: -10%;
-      top: -30%;
-      width: 60px;
-      height: 60px;
-      border-radius: 15%;
-    }
+      left: 760px;
+      top: 1700px;
+      width: 370px;
+      height: 20px;
+      background: #fff;
+      margin-top: 21%;
+  }
   
-    .Terminos input[type="checkbox"]:checked+label::before {
-      background-color: #EF5036;
-    }
+  .checkbox-label {
+      font-family: 'Lato', sans-serif;
+      font-size: 1.3vw;
+      font-weight: 300;
+      position: absolute;
+      margin-left: 30px;
+      margin-top: 0px;
+      white-space: nowrap;
+      overflow: hidden;
+  }
+  
+  .checkbox-input {
+      transform: scale(2.0);
+      margin-right: 10px;
+      cursor: pointer;
+  }
+  
+  .custom-select {
+      border-radius: 10px;
+      padding: 11px;
+      width: 967px;
+      margin: 10px;
+      background-color: #f2f2f2;
+      color: #2D9AA6;
+      border: none;
+  }
+  
+  
+  .custom-select option { /* Estilo para los opciones del select */
+      background-color: #f2f2f2;
+      color: #1e7781;
+  }
   
     .Boton {
       background-color: #EF5036;
@@ -164,5 +178,6 @@
       margin: 42%;
       text-align: center;
       border: none;
-      margin-top: 4%;
+      margin-top: 8%;
+      margin-block-end: 5%;
     }
