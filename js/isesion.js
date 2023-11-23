@@ -51,6 +51,6 @@ function mostrarLista() {
     var miLista = document.getElementById('miLista');
     miLista.style.display = (miLista.style.display === 'none' || miLista.style.display === '') ? 'block' : 'none';
 } 
-if(iactivo=true){
+if(localStorage.getItem('iactivo')=true){
 mostrarLista();
 }

@@ -32,3 +32,6 @@ localStorage.clear
     localStorage.setItem('pass',contraeña.value)
 });
 console.log('A')
+if(localStorage.getItem('iactivo')=true){
+    mostrarLista();
+    }

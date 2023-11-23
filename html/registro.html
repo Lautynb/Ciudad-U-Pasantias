@@ -77,103 +77,107 @@
     <form>
         <div class="cuestionario">
             <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre">
-
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                      
+                </div>
+    
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido"
+                        >
+                </div>
+    
+                <div class="form-group">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo" >
+                        <option value="femenino">Femenino</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="EMAIL">Mail:</label>
+                    <input type="text" id="email" name="email"
+                        >
+                </div>
+    
+                <div class="form-group">
+                    <label for="FDN">Fecha_de_nacimiento:</label>
+                    <input type="text" id="FDN" name="FDN"
+                       >
+                </div>
+    
+                <div class="form-group">
+                    <label for="tell">Telefono:</label>
+                    <input type="text" id="tell" name="tell">
+                </div>
+    
+                <div class="form-group">
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad">
+                </div>
+    
+                <div class="form-group">
+                    <label for="Universidad">Universidad:</label>
+                    <select id="Universidad" name="Universidad" >
+                        <option value="preuniversitario">Pre</option>
+                        <option value="Uncuyo">Uncuyo</option>
+                        <option value="Universidad Champagnat">Uch</option>
+                        <option value="Universidad Tecnologíca Nacional">Utn</option>
+                        <option value="Universidad Catolica Argentina">Uca</option>
+                        <option value="Universad de Mendoza">Um</option>
+                        <option value="Universidad de Aconcagua">Uda</option>
+                        <option value="Universidad de Congreso">Uc</option>
+                        <option value="Universidad Maza">UMaza</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="documento">DNI/Pasaporte:</label>
+                    <input type="text" id="documento" name="documento">
+                </div>
+    
+                <div class="form-group">
+                    <label for="constancia">Constancia:</label>
+                    <input type="text" id="constancia" name="constancia">
+                </div>
+    
+                <!--ADJUNTAR PDF CONSTANCIA-->
+    
+                <div>
+                    <label for="file-upload" class="file-label">
+                        <img src="/image/pdf.PNG" class="archivopng" alt="Adjuntar icono">
+                    </label>
+                    <input type="file" id="constancia" name="constancia" accept=".pdf" style="display: none;"
+                        onchange="displayFileName()" />
+                </div>
+    
+    
+                <!--/ADJUNTAR PDF CONSTANCIA-->
+    
+    
+                <div class="form-group">
+                    <label for="user">Nombre_usuario:</label>
+                    <input type="text" id="user" name="user">
+                </div>
+    
+                <div class="form-group">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="text" id="contraseña" name="contraseña">
+                </div>
             </div>
-
-            <div class="form-group">
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido">
-            </div>
-
-            <div class="form-group">
-                <label for="sexo">Sexo:</label>
-                <select id="sexo" name="sexo">
-                    <option value="femenino">Femenino</option>
-                    <option value="masculino">Masculino</option>
-                    <option value="otro">Otro</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="apellido">Correo:</label>
-                <input type="text" id="apellido" name="apellido">
-            </div>
-
-            <div class="form-group">
-                <label for="apellido">Fecha de nacimiento:</label>
-                <input type="text" id="apellido" name="apellido">
-            </div>
-
-            <div class="form-group">
-                <label for="apellido">Telefono:</label>
-                <input type="text" id="apellido" name="apellido">
-            </div>
-
-            <div class="form-group">
-                <label for="apellido">Ciudad:</label>
-                <input type="text" id="apellido" name="apellido">
-            </div>
-
-            <div class="form-group">
-                <label for="apellido">Universidad:</label>
-                <select id="sexo" name="sexo">
-                    <option value="femenino">Pre</option>
-                    <option value="masculino">Uncuyo</option>
-                    <option value="otro">Uch</option>
-                    <option value="femenino">Utn</option>
-                    <option value="masculino">Uca</option>
-                    <option value="otro">Um</option>
-                    <option value="femenino">Uda</option>
-                    <option value="masculino">Uc</option>
-                    <option value="otro">UMaza</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="apellido">DNI/Pasaporte:</label>
-                <input type="text" id="apellido" name="apellido">
-            </div>
-
-            <div class="form-group">
-                <label for="apellido">Constancia:</label>
-                <input type="text" id="apellido" name="apellido" style="width: 90%;">
-            </div>
-
-            <!--ADJUNTAR PDF CONSTANCIA-->
-
-            <div>
-                <label for="file-upload" class="file-label">
-                    <img class="imgC" src="/image/pdf.PNG" alt="Adjuntar icono">
-                </label>
-                <input type="file" id="file-upload" style="display: none;" name="constancia" accept=".pdf"
-                    onchange="displayFileName()" />
-            </div>
-
-
-            <!--/ADJUNTAR PDF CONSTANCIA-->
-
-
-            <div class="form-group">
-                <label for="apellido">Nombre_usuario:</label>
-                <input type="text" id="apellido" name="apellido">
-            </div>
-
-            <div class="form-group">
-                <label for="apellido">Contraseña:</label>
-                <input type="text" id="apellido" name="apellido">
-            </div>
+        </form>
+    
+        <div class="container">
+            <input type="checkbox" id="terms" class="checkbox-input">
+            <label for="terms" class="checkbox-label">Acepto términos y condiciones</label>
         </div>
-    </form>
-
-    <div class="container">
-        <input type="checkbox" id="terms" class="checkbox-input">
-        <label for="terms" class="checkbox-label">Acepto términos y condiciones</label>
-    </div>
-
-    <button class="Boton" type="submit">Enviar </button>
-
-</body>
-
-</html>
+    <div id="rgboton" class="boton-enviar"><button class="boton-enviar">Enviar</button></div>
+    <script src="/js/registro.js"></script>
+    
+    </body>
+    
+    
+    </html>

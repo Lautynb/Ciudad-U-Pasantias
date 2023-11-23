@@ -126,3 +126,58 @@ input[type="submit"]:hover {
   border: #EF5036;
   border: 10px;
 }
+/* MENU */
+
+.contenedor {
+  position: absolute;
+  display: inline-block;
+  margin-left: 95%;
+}
+
+.imagen {
+  width: 80px;
+  margin-top: 15%;
+  cursor: pointer;
+}
+
+.lista {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s linear;
+  position: absolute;
+  margin-left: -160%;
+  top: 100%;
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  background-color: transparent;
+  border: 0px solid transparent;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.lista a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.lista li {
+  padding: 25px;
+  border-bottom: 3px solid #ccc;
+  border-color: #158E9B;
+}
+
+.lista.mostrar {
+  max-height: 300px;
+  border: 5px solid transparent;
+  border-radius: 5%;
+  display: block;
+}
+
+.lista:not(.mostrar) {
+  border: 0px solid transparent;
+  border: 5px solid transparent;
+  border-radius: 5%;
+  display: block;
+}
