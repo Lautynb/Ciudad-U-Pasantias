@@ -15,7 +15,7 @@ var user = document.getElementById('user');
 var contraeña = document.getElementById('contraseña');
 
 botonGuardar.addEventListener('click', function() {
-clearInterval.localStorage;
+localStorage.clear
     console.log('Nombre:', nombre.value);
     console.log('Apellido:', apellido.value);
     console.log('Genero:', sexo.value);
