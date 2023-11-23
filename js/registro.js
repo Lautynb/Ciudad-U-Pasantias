@@ -15,7 +15,7 @@ var user = document.getElementById('user');
 var contraeña = document.getElementById('contraseña');
 
 botonGuardar.addEventListener('click', function() {
-
+clearInterval.localStorage;
     console.log('Nombre:', nombre.value);
     console.log('Apellido:', apellido.value);
     console.log('Genero:', sexo.value);
@@ -28,4 +28,7 @@ botonGuardar.addEventListener('click', function() {
     console.log('Constancia:', constancia.value);
     console.log('Usuario:', user.value);
     console.log('Contraseña:', contraeña.value);
+    localStorage.setItem('user',user.value)
+    localStorage.setItem('pass',contraeña.value)
 });
+console.log('A')

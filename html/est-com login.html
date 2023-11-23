@@ -35,16 +35,16 @@
 </header>
 
 <body>
-  <div class="lg">
+  <div class="lg" id="inicioSesion">
   <div class="login-container">
       <form class="login-form">
           <h1>Iniciar Sesión</h1>
           <hr>
           <h2>Soy Estudiante</h2>
           <label for="username">Usuario</label>
-          <input type="text" id="username" name="username" required>
+          <input type="text" id="usernamei" name="usernamei" required>
           <label for="password">Contraseña</label>
-          <input type="password" id="password" name="password" required>
+          <input type="password" id="passwordi" name="passwordi" required>
           <input type="submit"class="botonesIR" value="Iniciar Sesión">
       </form>
   </div>
@@ -61,6 +61,18 @@
     </form>
   </div>
 </div>
+<div id="sesionIniciada" style="display: none;">
+  <div class="contenedor">
+      <span class="nombre-usuario" id="nombreUsuario"></span>
+      <img class="imagen" src="/image/menu.svg" onclick="mostrarLista()">
+      <ul class="lista" id="miLista">
+          <li><a href="#">Mis datos</a></li>
+          <li><a href="#">Cambiar Contraseña</a></li>
+          <li><a href="#" onclick="cerrarSesion()">Salir🥺</a></li>
+      </ul>
+  </div>
+</div>
+<script src="/js/isesion.js"></script>
 </body>
 
 

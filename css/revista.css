@@ -20,7 +20,7 @@ header{
     align-items: center;
     align-content: center;
     width: 50%;
-    height: 90%;
+    height: 1500px;
     border: 10px solid #1895A0;
     padding: 10px;
     margin-block-end: 5%;
@@ -48,8 +48,8 @@ body {
 #slider {
     margin: auto;
     background-color: white;
-    max-width: 700px;
-    width: 100%;
+    max-width: 1500px;
+    width: 1500px;
     padding: 30px;
     box-sizing: border-box;
     
@@ -57,7 +57,7 @@ body {
 
 #slider>ul,
 li {
-    bottom: 70px;
+    bottom: 400px;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -75,14 +75,13 @@ li {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 10px;
-    left: 100%;
-    top: 100px;
+    top: 0px;
     transform: translate(-50%, -50%);
 }
 
 #slider>ul.slider li {
     position: absolute;
-    left: 0px;
+    left: 30px;
     top: 0px;
     opacity: 0;
     width: inherit;
@@ -121,7 +120,7 @@ li {
 }
 
 #slider > .menu li a {
-    left: 640px;
+    left: 560px;
 
     display: block;
     text-decoration: none;
