@@ -1,268 +1,392 @@
-<!DOCTYPE html>
+/* --------------------C. General----------------------------*/
+h1 {
 
-<html lang="en">
+  color: #EF5036;
+  font-size: 60px;
+  text-align: left;
 
-<head>
-  <link rel="stylesheet" href="/css/home.css">
-  <link rel="stylesheet" href="/css/barranav.css">
-  <script src="/carrusel de imagenes.js"></script>
-  <script src="https://kit.fontawesome.com/c01776725e.js" crossorigin="anonymous"></script>
-</head>
-<header>
-  <title> Ciudad Universitaria </title>
+}
 
+h2 {
 
+  color: #000000;
+  font-size: 30px;
+  text-align: left;
 
-  <div class="barra_inicio">
-    <header>
-      <nav>
-        <div class="logo">
-          <img width='80' height='70' src='/image/LogoCU.png'>
-          <img width='200' height='70' src='/image/logo2.png'>
-        </div>
-        <ul>
+}
 
-          <li><a href="/html/home.html" style="display: block; width: 100%;">Inicio<hr></a></li>
+body {
+  margin-top: -10px;
+}
 
-          <li><a href="/html/nosotros_uc.html">Nosotros</a></li>
+html {
+  margin-top: -1%;
+}
 
-          <li><a href="/html/beneficios_uc.html">Beneficios</a></li>
+/* ------------------------primer bloque----------------------------------*/
+.Beneficios {
+  float: left;
+  width: 98%;
+  padding-top: 8%;
+  overflow: auto;
+}
 
-          <li><a href="/html/comercio.html">Adheri tu Comercio</a></li>
+.lista1 {
+  list-style-image: url("/image/lista1.png");
+}
 
-          <li><a href="/html/registro.html">Ùnite</a></li>
+.image {
+  float: right;
+  overflow: auto;
+}
 
-        </ul>
-        <div class="botonesIR">
-          <button><a href="/html/est-com login.html"><b> Iniciar Sesion</a></button>
-          <button><a href="/html/registro.html">Registro</b></a></button>
-        </div>
-      </nav>
+/* -----------------------------------------------------------------*/
+.barraI {
 
-    </header>
-  </div>
+  display: block;
+  float: left;
+  justify-content: center;
+  margin-left: 160px;
+  color: #D9AA;
+}
 
+.fila {
+  display: flex;
+  justify-content: center;
+  margin-left: -80px;
+  color: #2D9AA6;
+}
 
-</header>
+.columna {
+  flex: 1;
+  padding: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  cursor: pointer;
+}
 
-<body>
+.columna a {
+  display: block;
+  padding: 0px;
+  color: #2D9AA6;
+  text-decoration: none;
+}
 
+.columna a:hover {
+  display: block;
+  padding: 0px;
+  color: #ff7b00;
+  text-decoration: none;
+}
 
-  <div class="Beneficios">
-    <p>
-    <div class="image">
+.ParrafoC {
+  margin-top: 25px;
+}
 
-      <img width='800' height='620' src="/image/Creamos presente2.PNG" alt="Imagen del inicio nosotros">
+.b2b {
+  background: #08545B;
+  list-style: none;
+  width: 100%;
+  display: block;
+  float: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-    </div>
-    <img width='800' height='120' src='/image/Creamos presente.PNG'>
+.titulo2b {
+  list-style: none;
+  padding-top: 40px;
+  margin-left: 200px;
+  color: #e06907;
+  font-size: 30px;
+  width: 650px;
+}
 
+.subtitulo2b {
+  list-style: none;
+  padding-top: 10px;
+  margin-left: 170px;
+  color: #ffffff;
+  font-size: 50px;
+  width: 700px;
+}
 
-    <ul>
+.parrafo2b {
+  padding-bottom: 30px;
+  text-align: left;
+  list-style: none;
+  padding-top: 10px;
+  margin-left: 200px;
+  width: 660px;
+  color: #ffffff;
+  font-size: 25px;
+}
 
-      <h1>Idiomas_</h1>
-      <div class="lista1">
-        <h2>
+.parrafo2b a {
+  color: #ffffff;
+}
 
-          <li>Pasantías</li>
+.parrafo2b button {
+  background-color: #EF5036;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 30px;
+  margin: 4px 2px;
+  margin-left: 190px;
+  margin-top: 8%;
+  transition-duration: 0.4s;
+}
 
-          <li>Sorteos</li>
+.parrafo2b button:hover {
+  background-color: #ffffff;
+  color: #EF5036;
+}
 
-          <li>Orientación Vocacional</li>
+.carousel-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: block;
+  overflow: visible;
+}
 
-          <li>Cursos de Inovación y Tecnología</li>
+.carousel-slide {
+  display: none;
+}
 
-          <button><a href="/html/registrate.html">Unirse Ahora </a></button>
-        </h2>
-      </div>
-    </ul>
-    </p>
+.carousel-button {
+  position: absolute;
+  margin: 0px;
+  padding-left: 250px;
+}
 
-  </div>
+#nextBtn {
+  margin-left: -300px;
+}
 
-  <div class="barraI">
-    <div class="fila">
-
-      <div class="columna">
-          <a href="/html/agenda_uc.html">
-              <i class="fa-solid fa-calendar-days  fa-beat"
-                  style="--fa-animation-duration: 5s; --fa-beat-scale: 1.2; font-size: 100px;"></i>
-          </a>
-          <p class="ParrafoC">Calendario</p>
-      </div>
-
-      <div class="columna">
-          <a href="/html/revista.html">
-              <i class="fa-brands fa-readme  fa-beat" style="--fa-animation-duration: 5s; --fa-beat-scale: 1.2 ; font-size: 100px;"></i>
-          </a>
-          <p class="ParrafoC">Noticias</p>
-      </div>
-
-      <div class="columna">
-          <a href="/html/nosotros_uc.html">
-              <i class="fa-regular fa-handshake fa-beat"
-                  style="--fa-animation-duration: 5s; --fa-beat-scale: 1.2; font-size: 100px;"></i>
-          </a>
-          <p class="ParrafoC2">!Tu! Intecrambio</p>
-      </div>
-
-      <div class="columna">
-          <a href="/html/actividaes_uc.html">
-              <i class="fa-solid fa-icons fa-beat" style="--fa-animation-duration: 5s; --fa-beat-scale: 1.2; font-size: 100px;"></i>
-          </a>
-          <p class="ParrafoC2">Actividades</p>
-      </div>
-  </div>
-   </div>
-
-
-
-
-  <div class="b2b">
-    <p>
-      <div class="fila">
-
-        <div class="columna">
-          <ul>
-            <div class="titulo2b">
-              <li>Explora los decuentos imperdibles de tu ciudad</li>
-            </div>
-            <div class="subtitulo2b">
-              <li>¡Compra Más, Gasta Menos!</li>
-            </div>
-            <div class="parrafo2b">
-              <li>Desde tus lugares favoritos hasta emocionantes descubrimientos, nuestra amplia gama de comercios adheridos
-                te espera. ¿Un café con amigos? ¿Una tarde de compras? ¿Cena en ese restaurante que tanto te gusta? ¡Todo es
-                posible con nuestros Descuentos Exclusivos!</li>
-              <button><a href="/html/beneficios_uc.html">¡Quiero Ahorrar!</a></button>
-            </div>
-          </ul>
-        </div>
-          <div class="columna">
-            <div class="carousel-container">
-              <div class="carousel-slide">
-                <img src="/image/carrusela.png" alt="Imagen 1">
-              </div>
-              <div class="carousel-slide">
-                <img src="/image/carruselb.png" alt="Imagen 2">
-              </div>
-              <div class="carousel-slide">
-                <img src="/image/carruselc.png" alt="Imagen 3">
-              </div>
-              <div class="carousel-button">
-                <button id="prevBtn">Prev</button>
-                <button id="nextBtn">Sig</button>
-            </div>
-            
-            <script src="/js/carrusel de imagenes.js"></script>
-          
-          </div>
-          </div>
-          </div>
-    
-    
-
-    </p>
-  </div>
-  <div class="b3">
-    <p>
-    <div class="image3b">
-
-      <i class="fa-solid fa-store" style="color: #2D9AA6;"></i>
-
-    </div>
-    <ul>
-      <div class="titulo3b">
-        <li>Potencia tu negocio con Ciudad U!</li>
-      </div>
-      <div class="subtitulo3b">
-        <li>¡Únete a Nuestro Equipo de Comerciantes!</li>
-      </div>
-      <div class="parrafo3b">
-        <li>¿Quieres ofrecer descuentos exclusivos a nuestra comunidad y aumentar tus ventas?.
-          ¡Únete a nosotros! Es fácil y gratis .</li>
-        <button><a href="/html/comercio.html">Únite Hoy</a></button>
-      </div>
-    </ul>
-
-    </p>
-  </div>
-  <div class="b4">
-    <p>
-
-    <ul>
-
-      <div class="titulo4b">
-        <li>Explora las Increíbles Universidades de Ciudad U</li>
-      </div>
-      <div class="row">
-        <div class="column">
-          <button><a href="https://utn.edu.ar/es/" target="_blank">
-            <img width='70' height='70' src='/image/utn.png'>
-              UTN
-              <hr>
-            </a></button>
-        </div>
-        <div class="column">
-          <button><a href="https://www.uch.edu.ar/" target="_blank"><img width='70' height='70'
-                src='/image/champagnat 1 1 1.png'> Universidad Champagnat
-              <hr>
-            </a></button>
-        </div>
-      </div>
-      <div class="subtitulo4b">
-        <li>¡Encontrá tu carrera!</li>
-      </div>
-      <div class="row">
-        <div class="column2">
-          <button><a href="https://uca.edu.ar/es" target="_blank"><img width='70' height='70'
-                src='/image/Universidad_Católica_Argentina 1.png'> Uca
-              <hr>
-            </a></button>
-        </div>
-        <div class="column">
-          <button><a href="https://um.edu.ar/" target="_blank"><img width='70' height='70' src='/image/mendoza 1.png'>
-              Universidad de Mendoza
-              <hr>
-            </a></button>
-        </div>
-      </div>
-
-      <div class="parrafo4b">
-        <li>En la provincia tenemos una abanico de posibilidades para que tú puedas convertirte en un profesional.</li>
-      </div>
-      <div class="row">
-        <div class="column">
-          <button><a href="https://www.uncuyo.edu.ar/" target="_blank"><img width='70' height='70'
-                src='/image/uncuyo.png'>Uncuyo
-              <hr>
-            </a></button>
-        </div>
-        <div class="column">
-          <button><a href="https://www.ucongreso.edu.ar/" target="_blank"><img width='70' height='70'
-                src='/image/uc_marca2 1 1 1.png'>Universidad de congreso
-              <hr>
-            </a></button>
-        </div>
-      </div>
-
-    </ul>
+#prevBtn {
+  margin-right: -80px;
+}
 
 
-    </p>
-  </div>
-  <div class="b5">
-    <p>
-    <ul>
-      <div class="titulo5b">
-        <iframe src="https://www.instagram.com/ciudaduniversitaria_/embed" width="590%" height="720" frameborder="0"
-          scrolling="no" allowtransparency="true"></iframe>
-      </div>
+.b2b img {
+  width: 400px;
+  height: 400px;
+}
 
-    </ul>
+.b3 {
 
-    </p>
-  </div>
-</body>
+  background: #ffffff;
+  list-style: none;
+  width: 100%;
+  display: block;
+  float: right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-</html>
+.titulo3b {
+  float: right;
+  list-style: none;
+  padding-top: 40px;
+  margin-right: 360px;
+  color: #e06907;
+  font-size: 20px;
+
+}
+
+.subtitulo3b {
+  width: 380px;
+  float: right;
+  list-style: none;
+  padding-top: 10px;
+  margin-right: 350px;
+  color: #000000;
+  font-size: 30px;
+
+}
+
+.parrafo3b {
+  float: right;
+  width: 380px;
+  padding-bottom: 10px;
+  list-style: none;
+  padding-top: 60px;
+  margin-right: 200px;
+  width: 530px;
+  color: #000000;
+  font-size: 25px;
+
+}
+
+.image3b {
+  display: block;
+  float: left;
+  margin-left: 300px;
+  margin-top: 0px;
+  font-size: 300px;
+}
+
+.parrafo3b button {
+  margin-top: 50px;
+  background-color: #EF5036;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 30px;
+  margin: 4px 2px;
+  margin-left: 100px;
+  transition-duration: 0.4s;
+}
+
+.parrafo3b button:hover {
+  background-color: #ffffff;
+  color: #EF5036;
+}
+
+.b4 {
+  width: 100%;
+  background: #08545B;
+  list-style: none;
+  float: left;
+  display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo4b {
+  align-items: normal;
+  float: left;
+  list-style: none;
+  padding-top: 45px;
+  margin-left: 100px;
+  color: #e06907;
+  font-size: 20px;
+}
+
+.subtitulo4b {
+  float: left;
+  list-style: none;
+  padding-top: -5%;
+  margin-left: 100px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.parrafo4b {
+
+  float: left;
+  width: 500px;
+  padding-bottom: 10px;
+  list-style: none;
+  padding-top: -5%;
+  margin-left: 100px;
+  color: #ffffff;
+  font-size: 25px;
+  margin-block-end: 2%;
+
+}
+
+.row {
+
+  padding-top: 0px;
+  display: flex;
+
+  margin-right: 100px;
+}
+
+.column {
+  padding-top: 0px;
+  flex: 1;
+
+}
+
+.row hr {
+  padding: 0px;
+  margin: 0%;
+  height: 5px;
+  background-color: #08545B;
+  border: none;
+}
+
+.column2 {
+  padding-top: 0px;
+  margin-left: 160px;
+  flex: 1;
+
+}
+
+.b4 button {
+  float: right;
+  background-color: #EF5036;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: right;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+  font-size: 25px;
+  margin: 10px auto;
+  transition-duration: 1s;
+  margin-bottom: 10px;
+  /* Ajusta el margen inferior según sea necesario */
+
+}
+
+.b4 button:hover {
+  background-color: #f5f5f5;
+  color: black;
+
+}
+
+.b4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.b4 button:hover a {
+  text-decoration: none;
+  transition-duration: 1s;
+  color: #000000;
+}
+
+.b5 {
+
+  background: #ffffff;
+  list-style: none;
+  width: 100%;
+  display: block;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo5b {
+  float: left;
+  list-style: none;
+  padding-top: 40px;
+  padding-left: -00px;
+  color: #e06907;
+  font-size: 40px;
+
+}
+
+/* Animacion de texto */
+
+#languageContainer {
+  text-align: center;
+}
+
+#changingText {
+  transition: opacity 0.5s ease-in-out;
+}

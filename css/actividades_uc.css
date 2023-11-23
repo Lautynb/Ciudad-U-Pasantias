@@ -14,7 +14,7 @@ h3 {
 
 .ContenidoAlineado {
     display: flex;
-    margin-left: -15%;
+    margin-left: -8%;
     align-items: center;
     justify-content: center;
     gap: 160px;
@@ -48,7 +48,7 @@ h3 {
 }
 
 .Mapa {
-    margin-left: 20%;
+    margin-left: 16%;
     margin-top: -12%;
 }
 
@@ -145,7 +145,7 @@ textarea:focus {
 .ParrafoC {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #2D9AA6;
-    margin-top: -6.5%;
+    margin-top: -7.5%;
     margin-left: 22%;
     font-size: 30px;
     width: 100%;
